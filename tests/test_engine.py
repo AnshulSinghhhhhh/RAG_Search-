@@ -165,9 +165,54 @@ def test_identical_pixels_skip_ocr(brain):
     assert result[0]['text'] == 'existing' and metrics['ocr_area_fraction'] == 0
 
 
+@pytest.mark.parametrize('keep_alias', [False, True])
+def test_overwritten_image_gets_new_ocr(brain, tmp_path, keep_alias):
+    brain.workspace.settings.ocr = True
+    path = tmp_path / 'a-price.png'
+    old_image = Image.new('RGB', (700, 500), 'white')
+    old_image.save(path)
+
+    def ocr(image):
+        price = '2499' if image.getpixel((image.width // 2, image.height // 2))[0] == 0 else '2999'
+        return [{'text': price, 'confidence': .99, 'box': [image.width // 2 - 5, image.height // 2 - 5,
+                                                           image.width // 2 + 5, image.height // 2 + 5]}]
+
+    brain.extractors.ocr = ocr
+    previous = brain.ingest_file(path)['id']
+    if keep_alias:
+        alias = tmp_path / 'z-copy.png'
+        alias.write_bytes(path.read_bytes())
+        brain.ingest_file(alias)
+    ImageDraw.Draw(old_image).rectangle((347, 247, 353, 253), fill='black')
+    old_image.save(path)
+    current = brain.ingest_file(path)['id']
+    assert previous != current
+    assert [r['id'] for r in brain.search('2499', lexical_only=True)['results']] == [current]
+    assert [r['id'] for r in brain.search('2999', lexical_only=True)['results']] == ([previous] if keep_alias else [])
+
+
 def test_audio_chunks_preserve_original_offsets():
     chunks = audio_chunks([{'text': 'first cafe', 'start': 15., 'end': 18.},
                            {'text': 'near library', 'start': 18.5, 'end': 21.},
                            {'text': 'second topic', 'start': 60., 'end': 65.}])
     assert chunks[0] == {'text': 'first cafe near library', 'start': 15., 'end': 21.}
     assert chunks[1]['start'] == 60.
+
+
+@pytest.mark.parametrize('lexical_only', [True, False])
+def test_long_document_cannot_fill_channel_candidate_budget(brain, tmp_path, lexical_only):
+    long_file = tmp_path / 'long.txt'
+    short_file = tmp_path / 'short.txt'
+    long_file.write_text('needle ' * 16000, encoding='utf-8')
+    short_file.write_text('needle ' * 40 + 'filler ' * 100, encoding='utf-8')
+    brain.ingest_file(long_file)
+    brain.ingest_file(short_file)
+    query = 'needle'
+    if not lexical_only:
+        # Query for a word absent from both files through the dense-only path.
+        dense_query = brain.embeddings.text(['needle'], query=True)
+        brain.embeddings.text = lambda texts, query=False: dense_query
+        query = 'semantic-query-without-a-keyword-match'
+    results = brain.search(query, lexical_only=lexical_only)['results']
+    assert {result['name'] for result in results} == {'long.txt', 'short.txt'}
+    assert all(result['channels'] == (['keyword'] if lexical_only else ['text']) for result in results)

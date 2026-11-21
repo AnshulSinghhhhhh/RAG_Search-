@@ -1,0 +1,11 @@
+[
+  {"id":"bakery-total","lines":["ALDER BAKERY","Coffee and bread","SUBTOTAL INR 130.00","TOTAL INR 145.00"],"query":"What is the receipt total for Alder Bakery?","expected":"INR 145.00"},
+  {"id":"deli-missing-total","lines":["ORCHARD DELI","Soup and salad","SUBTOTAL USD 22.00","Tax and fees pending"],"query":"Receipt total for Orchard Deli","expected":null},
+  {"id":"market-conflicting-total","lines":["CLOVER MARKET","TOTAL GBP 18.25","TOTAL GBP 21.40"],"query":"Receipt total for Clover Market","expected":null},
+  {"id":"books-invoice","lines":["HARBOR BOOKS","Invoice No. HB-51/3","Three paperbacks"],"query":"What is the invoice number for Harbor Books?","expected":"HB-51/3"},
+  {"id":"clinic-missing-invoice","lines":["MEADOW CLINIC","Invoice Number:","Payment pending"],"query":"Invoice number for Meadow Clinic","expected":null},
+  {"id":"press-conflicting-invoices","lines":["SUMMIT PRESS","INV-502-11","INV-502-17"],"query":"Invoice identifier for Summit Press","expected":null},
+  {"id":"lamp-price","lines":["LARCH DESK LAMP","Reading lamp in brushed steel","USD 49.95"],"query":"Displayed price of the Larch Desk Lamp","expected":"USD 49.95"},
+  {"id":"kettle-missing-price","lines":["WREN TEA KETTLE","1.5 liter enamel kettle","Coming in spring"],"query":"Displayed price of the Wren Tea Kettle","expected":null},
+  {"id":"stool-conflicting-prices","lines":["CEDAR COUNTER STOOL","Natural finish","USD 75.00","USD 95.00"],"query":"Displayed price of the Cedar Counter Stool","expected":null}
+]

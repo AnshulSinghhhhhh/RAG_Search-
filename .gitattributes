@@ -1,5 +1,6 @@
 # Keep measured inputs, evidence, and fingerprinted sources byte-for-byte.
 playground/inbox/** -text
+research/field_cases.json -text
 research/results/** -text
 research/*.py -text
 secondbrain/*.py -text

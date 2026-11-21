@@ -4,6 +4,8 @@ A local collection for screenshots, receipts, text notes, and voice memos. Index
 
 **Status:** working local prototype. Efficiency features and their limits are documented below; no unmeasured speedup or accuracy claims are made.
 
+[Full installation guide](docs/INSTALL.md) · [Research paper (PDF)](output/pdf/adaptive_secondbrain_paper.pdf) · [Paper source](research/paper.md)
+
 ![Local interface with synthetic playground files](docs/preview.jpg)
 
 ## Quick start on Windows CMD
@@ -73,6 +75,7 @@ File times are generated relative to the creation date. Regenerate fixtures with
 | `brain search "query" --refine --budget 5` | Selectively retry uncertain matching image OCR |
 | `brain search "query" --json` | Machine-readable results, paths, timestamps, channels |
 | `brain ask "question"` | Show quoted source evidence |
+| `brain ask "What is the receipt total for Juniper Cafe?" --refine` | Retry OCR and show the cited total or explain why evidence is insufficient |
 | `brain ask "question" --model "your-local-model"` | Answer using an already installed local Ollama model |
 | `brain serve --port 8765` | Local visual interface |
 | `brain status` | Actual file, vector, storage, and activity statistics |
@@ -80,9 +83,14 @@ File times are generated relative to the creation date. Regenerate fixtures with
 | `brain models --audio` | Prefetch selected models |
 | `brain forget "path"` | Forget indexed files while preserving originals |
 | `brain prune` | Forget missing original locations |
+| `brain repair --dry-run` / `brain repair` | Count or refresh image and audio evidence from earlier versions |
 | `brain benchmark playground/scenarios.json` | Execute labeled retrieval scenarios |
 
 The optional global `--home` argument goes **before** the command. Default storage is `%LOCALAPPDATA%\SecondBrain` on Windows and `~/.local/share/secondbrain` on Linux/macOS. Set `SECONDBRAIN_HOME` or use `brain --home .secondbrain ...` for a repository-local collection. CLI and UI must use the same home to share data. Data/model caches are gitignored when repository-local.
+
+After upgrading to 0.2.0, use `brain repair --dry-run` to see how many images and recordings need refreshing. Run `brain repair` in the same collection, with the audio extra installed if you indexed recordings. Repair commits each file independently. Run it again after an interruption to continue. If an original changed or moved, index its current location to refresh the evidence. Regular indexing and sync also refresh affected files as they encounter them.
+
+Ask can cite receipt totals, invoice identifiers, and displayed product prices from image text. Include the merchant or product name when the collection has multiple matching images. Open a citation to see the highlighted line. Use **Refine OCR** in the browser or `brain ask --refine` to retry recognition. If the retry produces a conflicting reading, both readings are available for inspection and the app declines to choose a value. Other Ask queries continue to show excerpts or use optional local Ollama.
 
 ## Architecture and efficiency
 
@@ -110,7 +118,7 @@ optional selective OCR retry / local Ollama answer
 - **Changed-region OCR:** a perceptual hash only proposes related images. Exact native-resolution pixel differences determine the OCR crop. Existing text boxes enlarge affected crops; unchanged OCR lines are reused, and overlapping stale lines are replaced. Uncertain/large changes fall back to full OCR. Each unique image retains its own visual embedding. JPEG recompression, scrolls, and layout shifts may make reuse ineffective.
 - **Compact vectors:** symmetric per-vector INT8 storage stores one byte per component plus scale/norm metadata. No float32 corpus copies are retained. The UI reports actual vector payload and database size separately. The baseline uses BGE-small (384D) and paired CLIP models (512D); it does **not** truncate untrained vector dimensions or claim Matryoshka compression.
 - **Independent spaces:** BGE text search and CLIP text-to-image search use their own query encoders. FTS5 handles exact extracted words. Asset-level reciprocal rank fusion prevents long recordings from receiving extra votes merely for having more chunks.
-- **Selective refinement:** `--refine` retries OCR for relevant, low-confidence images with a soft time budget and persists an improvement. The budget includes retrieval; an in-flight OCR call can exceed it. This initial controller uses rules, not a learned quality predictor. Stronger selective ASR and VLM captioning are future work.
+- **Selective refinement:** `brain search --refine` retries OCR for relevant, low-confidence images and preserves the initial extraction alongside any replacement. `brain ask --refine` can retry a requested field even when its image scored highly. Its alternate readings are returned with the answer. Both paths use a soft budget that includes retrieval and may be exceeded by an in-flight OCR call.
 - **Speech:** multilingual Whisper `base`, CPU INT8, speech detection, and approximately 30-second chunks with original timestamps. Configure `brain init --audio-model small --language hi` when appropriate, then reindex. Synthetic English samples do not establish mixed-language accuracy.
 - **Incremental sync:** registered folders, per-file atomic transactions, a stable-write debounce in the watcher, and cached processing signatures.
 
@@ -145,3 +153,5 @@ Project code and generated fixtures use MIT. Pretrained model licenses apply sep
 ## Research report
 
 The [experimental research report](output/pdf/adaptive_secondbrain_research_report.pdf) and [HTML version](output/research/report.html) document 10 experiment groups with real-model measurements, query outcomes, failures, limitations, and related research. The study uses a tiny synthetic corpus and does not establish production accuracy. See [research instructions](research/README.txt) for the reproducible scripts and retained JSON/CSV evidence.
+
+The [0.2.0 field evaluation](research/results/2026-11-21/field_evaluation.json) records a separate small synthetic run for the three supported fields. Reproduce it with `python research/run_field_evaluation.py --output field-evaluation.json` and optionally pass `--cache` to reuse downloaded models.

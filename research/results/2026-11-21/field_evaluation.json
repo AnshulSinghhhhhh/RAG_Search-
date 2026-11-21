@@ -1,0 +1,568 @@
+{
+  "description": "Frozen synthetic image families separate from the original playground.",
+  "manifest_sha256": "17e9a20260da68d05c3575f7b9836f74bbd553b774841c37df69ce9b318ccb45",
+  "python": "3.11.9",
+  "platform": "Windows",
+  "packages": {
+    "rapidocr": "3.10.0",
+    "fastembed": "0.9.1",
+    "onnxruntime": "1.30.0",
+    "Pillow": "12.2.0"
+  },
+  "summary": {
+    "default": {
+      "cases": 9,
+      "positive_exact_and_cited": 3,
+      "positive_cases": 3,
+      "negative_abstentions": 6,
+      "negative_cases": 6,
+      "ocr_attempts": 0,
+      "p95_seconds": 0.6938
+    },
+    "retry": {
+      "cases": 9,
+      "positive_exact_and_cited": 3,
+      "positive_cases": 3,
+      "negative_abstentions": 6,
+      "negative_cases": 6,
+      "ocr_attempts": 9,
+      "p95_seconds": 1.3467
+    }
+  },
+  "cases": [
+    {
+      "id": "bakery-total",
+      "refine": false,
+      "expected": "INR 145.00",
+      "value": "INR 145.00",
+      "status": "supported",
+      "citations": [
+        {
+          "value": "INR 145.00",
+          "text": "TOTAL INR 145.00",
+          "box": [
+            57,
+            284,
+            355,
+            321
+          ],
+          "asset_id": "e86192d958e094936d8d96f0226e31568b57fb1bbc923b1d67c28d298ecffadf",
+          "source": "bakery-total.png",
+          "dimensions": [
+            900,
+            400
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 0,
+      "seconds": 1.0486,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "bakery-total",
+      "refine": true,
+      "expected": "INR 145.00",
+      "value": "INR 145.00",
+      "status": "supported",
+      "citations": [
+        {
+          "value": "INR 145.00",
+          "text": "TOTAL INR 145.00",
+          "box": [
+            57,
+            284,
+            355,
+            321
+          ],
+          "asset_id": "e86192d958e094936d8d96f0226e31568b57fb1bbc923b1d67c28d298ecffadf",
+          "source": "bakery-total.png",
+          "dimensions": [
+            900,
+            400
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 1,
+      "seconds": 1.3256,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "deli-missing-total",
+      "refine": false,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [],
+      "attempts": 0,
+      "seconds": 0.0535,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "deli-missing-total",
+      "refine": true,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [],
+      "attempts": 1,
+      "seconds": 1.1326,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "market-conflicting-total",
+      "refine": false,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [
+        {
+          "value": "GBP 18.25",
+          "text": "TOTAL GBP 18.25",
+          "box": [
+            57,
+            147,
+            341,
+            185
+          ],
+          "asset_id": "4f9b3cdc51bab7efbb17a50d72724c857cdcde08ee86fe91ec4a6798c5639e19",
+          "source": "market-conflicting-total.png",
+          "dimensions": [
+            900,
+            408
+          ],
+          "origin": "indexed"
+        },
+        {
+          "value": "GBP 21.40",
+          "text": "TOTAL GBP 21.40",
+          "box": [
+            57,
+            216,
+            345,
+            253
+          ],
+          "asset_id": "4f9b3cdc51bab7efbb17a50d72724c857cdcde08ee86fe91ec4a6798c5639e19",
+          "source": "market-conflicting-total.png",
+          "dimensions": [
+            900,
+            408
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 0,
+      "seconds": 0.1125,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "market-conflicting-total",
+      "refine": true,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [
+        {
+          "value": "GBP 18.25",
+          "text": "TOTAL GBP 18.25",
+          "box": [
+            57,
+            147,
+            341,
+            185
+          ],
+          "asset_id": "4f9b3cdc51bab7efbb17a50d72724c857cdcde08ee86fe91ec4a6798c5639e19",
+          "source": "market-conflicting-total.png",
+          "dimensions": [
+            900,
+            408
+          ],
+          "origin": "indexed"
+        },
+        {
+          "value": "GBP 21.40",
+          "text": "TOTAL GBP 21.40",
+          "box": [
+            57,
+            216,
+            345,
+            253
+          ],
+          "asset_id": "4f9b3cdc51bab7efbb17a50d72724c857cdcde08ee86fe91ec4a6798c5639e19",
+          "source": "market-conflicting-total.png",
+          "dimensions": [
+            900,
+            408
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 1,
+      "seconds": 0.7418,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "books-invoice",
+      "refine": false,
+      "expected": "HB-51/3",
+      "value": "HB-51/3",
+      "status": "supported",
+      "citations": [
+        {
+          "value": "HB-51/3",
+          "text": "Invoice No. HB-51/3",
+          "box": [
+            57,
+            147,
+            385,
+            186
+          ],
+          "asset_id": "008378c7f52aeda2e469f46371e6d7dd9f9fec79c100f5bddd5a754ddd71fa9d",
+          "source": "books-invoice.png",
+          "dimensions": [
+            900,
+            412
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 0,
+      "seconds": 0.1404,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "books-invoice",
+      "refine": true,
+      "expected": "HB-51/3",
+      "value": "HB-51/3",
+      "status": "supported",
+      "citations": [
+        {
+          "value": "HB-51/3",
+          "text": "Invoice No. HB-51/3",
+          "box": [
+            57,
+            147,
+            385,
+            186
+          ],
+          "asset_id": "008378c7f52aeda2e469f46371e6d7dd9f9fec79c100f5bddd5a754ddd71fa9d",
+          "source": "books-invoice.png",
+          "dimensions": [
+            900,
+            412
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 1,
+      "seconds": 1.3607,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "clinic-missing-invoice",
+      "refine": false,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [],
+      "attempts": 0,
+      "seconds": 0.0412,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "clinic-missing-invoice",
+      "refine": true,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [],
+      "attempts": 1,
+      "seconds": 1.2086,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "press-conflicting-invoices",
+      "refine": false,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [
+        {
+          "value": "INV-502-11",
+          "text": "INV-502-11",
+          "box": [
+            57,
+            148,
+            247,
+            185
+          ],
+          "asset_id": "cada24cd91b171538e18264b3183da7c2dfa3ac29f51a77a52b5dfbb661e13e3",
+          "source": "press-conflicting-invoices.png",
+          "dimensions": [
+            900,
+            420
+          ],
+          "origin": "indexed"
+        },
+        {
+          "value": "INV-502-17",
+          "text": "INV-502-17",
+          "box": [
+            57,
+            216,
+            253,
+            253
+          ],
+          "asset_id": "cada24cd91b171538e18264b3183da7c2dfa3ac29f51a77a52b5dfbb661e13e3",
+          "source": "press-conflicting-invoices.png",
+          "dimensions": [
+            900,
+            420
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 0,
+      "seconds": 0.1615,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "press-conflicting-invoices",
+      "refine": true,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [
+        {
+          "value": "INV-502-11",
+          "text": "INV-502-11",
+          "box": [
+            57,
+            148,
+            247,
+            185
+          ],
+          "asset_id": "cada24cd91b171538e18264b3183da7c2dfa3ac29f51a77a52b5dfbb661e13e3",
+          "source": "press-conflicting-invoices.png",
+          "dimensions": [
+            900,
+            420
+          ],
+          "origin": "indexed"
+        },
+        {
+          "value": "INV-502-17",
+          "text": "INV-502-17",
+          "box": [
+            57,
+            216,
+            253,
+            253
+          ],
+          "asset_id": "cada24cd91b171538e18264b3183da7c2dfa3ac29f51a77a52b5dfbb661e13e3",
+          "source": "press-conflicting-invoices.png",
+          "dimensions": [
+            900,
+            420
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 1,
+      "seconds": 0.6426,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "lamp-price",
+      "refine": false,
+      "expected": "USD 49.95",
+      "value": "USD 49.95",
+      "status": "supported",
+      "citations": [
+        {
+          "value": "USD 49.95",
+          "text": "USD 49.95",
+          "box": [
+            57,
+            215,
+            233,
+            252
+          ],
+          "asset_id": "476863f1b7672bdfc815b9a978229371d915d2a4892242b182541892b47e0669",
+          "source": "lamp-price.png",
+          "dimensions": [
+            900,
+            424
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 0,
+      "seconds": 0.1225,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "lamp-price",
+      "refine": true,
+      "expected": "USD 49.95",
+      "value": "USD 49.95",
+      "status": "supported",
+      "citations": [
+        {
+          "value": "USD 49.95",
+          "text": "USD 49.95",
+          "box": [
+            57,
+            215,
+            233,
+            252
+          ],
+          "asset_id": "476863f1b7672bdfc815b9a978229371d915d2a4892242b182541892b47e0669",
+          "source": "lamp-price.png",
+          "dimensions": [
+            900,
+            424
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 1,
+      "seconds": 0.838,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "kettle-missing-price",
+      "refine": false,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [],
+      "attempts": 0,
+      "seconds": 0.0505,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "kettle-missing-price",
+      "refine": true,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [],
+      "attempts": 1,
+      "seconds": 1.0143,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "stool-conflicting-prices",
+      "refine": false,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [
+        {
+          "value": "USD 75.00",
+          "text": "USD 75.00",
+          "box": [
+            56,
+            215,
+            234,
+            253
+          ],
+          "asset_id": "31cea76468706b7f04ad68dccc09748fe6a111f689ed9bda361d2354a199f49b",
+          "source": "stool-conflicting-prices.png",
+          "dimensions": [
+            900,
+            432
+          ],
+          "origin": "indexed"
+        },
+        {
+          "value": "USD 95.00",
+          "text": "USD 95.00",
+          "box": [
+            57,
+            284,
+            237,
+            320
+          ],
+          "asset_id": "31cea76468706b7f04ad68dccc09748fe6a111f689ed9bda361d2354a199f49b",
+          "source": "stool-conflicting-prices.png",
+          "dimensions": [
+            900,
+            432
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 0,
+      "seconds": 0.1041,
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "stool-conflicting-prices",
+      "refine": true,
+      "expected": null,
+      "value": null,
+      "status": "insufficient",
+      "citations": [
+        {
+          "value": "USD 75.00",
+          "text": "USD 75.00",
+          "box": [
+            56,
+            215,
+            234,
+            253
+          ],
+          "asset_id": "31cea76468706b7f04ad68dccc09748fe6a111f689ed9bda361d2354a199f49b",
+          "source": "stool-conflicting-prices.png",
+          "dimensions": [
+            900,
+            432
+          ],
+          "origin": "indexed"
+        },
+        {
+          "value": "USD 95.00",
+          "text": "USD 95.00",
+          "box": [
+            57,
+            284,
+            237,
+            320
+          ],
+          "asset_id": "31cea76468706b7f04ad68dccc09748fe6a111f689ed9bda361d2354a199f49b",
+          "source": "stool-conflicting-prices.png",
+          "dimensions": [
+            900,
+            432
+          ],
+          "origin": "indexed"
+        }
+      ],
+      "attempts": 1,
+      "seconds": 0.5517,
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

@@ -59,3 +59,8 @@
 .text-preview-button{min-height:200px}
 .note-preview p{flex-shrink:0;line-height:1.6;-webkit-line-clamp:2;max-height:3.2em}
 @media(max-width:850px){.text-preview-button{min-height:200px}}
+.answer-citations{padding-inline-start:1.5rem;margin-block:.5rem .75rem;font-size:.875rem}
+.answer-citations button{min-height:36px;text-align:left;overflow-wrap:anywhere;white-space:normal;text-decoration:underline;text-underline-offset:.18em}
+.citation-image{position:relative;width:fit-content;max-width:100%;margin-inline:auto}
+.citation-highlight{position:absolute;pointer-events:none;outline:2px solid var(--green);box-shadow:0 0 0 1px white inset}
+.citation-quote{margin:0 0 .75rem;font-weight:600}

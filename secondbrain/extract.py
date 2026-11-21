@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import hashlib
+import math
 import threading
+import wave
+from io import BytesIO
 from pathlib import Path
 
 import numpy as np
@@ -25,9 +28,22 @@ def file_hash(path: Path) -> str:
     return digest.hexdigest()
 
 
-def open_image(path: Path) -> Image.Image:
+def open_image(path: Path | BytesIO) -> Image.Image:
     with Image.open(path) as original:
         return ImageOps.exif_transpose(original).convert("RGB")
+
+
+def verified_image(paths: list[str], asset_id: str, max_bytes: int):
+    """Decode precisely the bytes whose digest matches the stored evidence."""
+    for path in paths:
+        try:
+            with Path(path).open("rb") as stream:
+                data = stream.read(max_bytes + 1)
+            if len(data) <= max_bytes and hashlib.sha256(data).hexdigest() == asset_id:
+                return open_image(BytesIO(data))
+        except (OSError, ValueError):
+            continue
+    return None
 
 
 def dhash(image: Image.Image) -> str:
@@ -118,8 +134,35 @@ class Extractors:
                                                      language=config.audio_language)
             segments = [{"text": segment.text.strip(), "start": segment.start, "end": segment.end,
                          "confidence": float(np.exp(segment.avg_logprob))} for segment in segments if segment.text.strip()]
-        return segments, {"duration": info.duration, "speech_seconds": info.duration_after_vad,
-                          "language": info.language, "segments": segments}
+        # For PCM WAV use the original frame count, avoiding resampling rounding.
+        duration = info.duration
+        if path.suffix.lower() == ".wav":
+            try:
+                with wave.open(str(path), "rb") as source:
+                    duration = source.getnframes() / source.getframerate()
+            except (wave.Error, EOFError):
+                pass  # Formats unsupported by wave still use the ASR decoder's duration.
+        segments, diagnostics = bounded_audio_segments(segments, duration)
+        return segments, {"duration": duration, "speech_seconds": info.duration_after_vad,
+                          "language": info.language, "segments": segments, "timestamp_checks": diagnostics}
+
+
+def bounded_audio_segments(segments: list[dict], duration: float) -> tuple[list[dict], dict]:
+    if not math.isfinite(duration) or duration < 0:
+        raise ValueError("Could not determine the recording duration.")
+    valid = []
+    adjusted = []
+    discarded = 0
+    for segment in segments:
+        start, end = segment["start"], segment["end"]
+        if not math.isfinite(start) or not math.isfinite(end) or max(0, start) >= min(duration, end):
+            discarded += 1
+            continue
+        if start < 0 or end > duration:
+            adjusted.append({"start": start, "end": end})
+        valid.append({**segment, "start": max(0, start), "end": min(duration, end)})
+    valid.sort(key=lambda segment: segment["start"])
+    return valid, {"clamped": len(adjusted), "discarded": discarded, "original_spans": adjusted}
 
 
 def text_chunks(text: str, words_per_chunk: int = 140, overlap: int = 20) -> list[dict]:
@@ -138,9 +181,10 @@ def audio_chunks(segments: list[dict]) -> list[dict]:
         if current and (segment["end"] - current[0]["start"] > 30 or
                         segment["start"] - current[-1]["end"] > 2):
             chunks.append({"text": " ".join(s["text"] for s in current),
-                           "start": current[0]["start"], "end": current[-1]["end"]})
+                           "start": current[0]["start"], "end": max(s["end"] for s in current)})
             current = []
         current.append(segment)
     if current:
-        chunks.append({"text": " ".join(s["text"] for s in current), "start": current[0]["start"], "end": current[-1]["end"]})
+        chunks.append({"text": " ".join(s["text"] for s in current), "start": current[0]["start"],
+                       "end": max(s["end"] for s in current)})
     return chunks

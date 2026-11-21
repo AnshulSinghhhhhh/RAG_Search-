@@ -7,14 +7,16 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
+from io import BytesIO
 from pathlib import Path
 from urllib.parse import urlparse
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+from . import __version__
 from .answers import answer
 from .engine import Brain
 
@@ -49,7 +51,7 @@ def create_app(home: str | Path | None = None, brain: Brain | None = None) -> Fa
         yield
         executor.shutdown(wait=False, cancel_futures=True)
 
-    app = FastAPI(title="Second Brain", version="0.1.0", lifespan=lifespan)
+    app = FastAPI(title="Second Brain", version=__version__, lifespan=lifespan)
     app.state.brain = brain
 
     @app.middleware("http")
@@ -90,10 +92,12 @@ def create_app(home: str | Path | None = None, brain: Brain | None = None) -> Fa
 
     @app.post("/api/ask")
     def ask(body: SearchRequest):
+        if body.kind not in {None, "image", "audio", "text"}:
+            raise HTTPException(400, "Choose image, audio, or text.")
         try:
             return answer(brain, body.query, brain.workspace.settings.ollama_model or None,
                           kind=body.kind, folder=body.folder, after=body.after, before=body.before,
-                          lexical_only=body.lexical_only)
+                          lexical_only=body.lexical_only, refine=body.refine)
         except Exception as exc:
             raise HTTPException(400, str(exc)) from exc
 
@@ -177,6 +181,18 @@ def create_app(home: str | Path | None = None, brain: Brain | None = None) -> Fa
         if not path.is_file():
             raise HTTPException(404, "No preview is available for this file.")
         return FileResponse(path, media_type="image/webp")
+
+    @app.get("/api/evidence-images/{asset_id}")
+    def evidence_image(asset_id: str):
+        item = brain.store.asset(asset_id)
+        image = brain._verified_image(item) if item and item["kind"] == "image" else None
+        if image is None:
+            raise HTTPException(404, "The cited image changed or is unavailable. Reindex the file to refresh its evidence.")
+        # Use the same orientation as OCR so citation coordinates match the pixels.
+        image.thumbnail((1800, 1800))
+        output = BytesIO()
+        image.save(output, "PNG")
+        return Response(output.getvalue(), media_type="image/png", headers={"Cache-Control": "no-store"})
 
     @app.delete("/api/sources")
     def forget_source(body: IndexRequest):

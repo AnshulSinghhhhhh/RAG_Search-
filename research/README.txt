@@ -1,4 +1,20 @@
 ADAPTIVE SECOND BRAIN - RESEARCH EVALUATION
+
+0.2.0 TECHNICAL PAPER AND FIELD FOLLOW-UP
+  ../output/pdf/adaptive_secondbrain_paper.pdf
+  paper.md (editable paper source)
+  field_cases.json (frozen synthetic fixtures and labels)
+  results/2026-11-21/field_evaluation.json (recorded results)
+
+The paper preserves the distinction between the baseline and the field study.
+From the repository root with the installed project environment:
+  python research/run_field_evaluation.py --cache .secondbrain/models --output field-evaluation.json
+
+To rebuild the paper PDF, install ReportLab and run:
+  python -m pip install reportlab
+  python research/render_paper.py
+
+0.1.0 BASELINE
 Recorded study: 20 November 2026
 
 DELIVERABLES

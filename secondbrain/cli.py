@@ -61,12 +61,15 @@ def parser():
             search.add_argument("--budget", type=float, default=5.0, help="Soft refinement budget in seconds")
         else:
             search.add_argument("--model", help="Installed Ollama model; omit for quoted evidence")
+            search.add_argument("--refine", action="store_true", help="Retry OCR for matching images")
     sources = commands.add_parser("sources", help="List, add, or remove watched/indexed folder sources")
     source_commands = sources.add_subparsers(dest="source_command", required=True)
     source_commands.add_parser("list")
     for verb in ("add", "remove"):
         source_commands.add_parser(verb).add_argument("path")
     commands.add_parser("sync", help="Index additions and changes in all saved source folders")
+    repair = commands.add_parser("repair", help="Refresh image and audio evidence created by older versions")
+    repair.add_argument("--dry-run", action="store_true", help="Count affected assets without reindexing")
     watch = commands.add_parser("watch", help="Watch chosen folders and incrementally index stable file changes")
     watch.add_argument("paths", nargs="*", help="Folders, or omit to watch saved sources")
     serve = commands.add_parser("serve", help="Open the local visual interface")
@@ -179,7 +182,8 @@ def main(argv=None) -> int:
                        "after": date_argument(arguments.after), "before": date_argument(arguments.before, True),
                        "lexical_only": arguments.lexical_only}
             if command == "ask":
-                result = answer(brain, arguments.query, arguments.model or brain.workspace.settings.ollama_model or None, **filters)
+                result = answer(brain, arguments.query, arguments.model or brain.workspace.settings.ollama_model or None,
+                                refine=arguments.refine, **filters)
             else:
                 if not 1 <= arguments.limit <= 100 or not 0 <= arguments.budget <= 120:
                     raise ValueError("Use --limit between 1 and 100 and --budget between 0 and 120 seconds.")
@@ -189,6 +193,8 @@ def main(argv=None) -> int:
             else:
                 if "answer" in result:
                     print(result["answer"] + "\n")
+                for number, citation in enumerate(result.get("citations", []), 1):
+                    print(f"[{number}] {citation['source']}: {citation['text']}")
                 for i, item in enumerate(result["results"], 1):
                     stamp = f" @{item['start']:.1f}s" if item["start"] is not None else ""
                     print(f"{i}. [{item['kind']}]{stamp} {item['name']}\n   {item['paths'][0]}\n   {item['text'][:220]}\n")
@@ -209,6 +215,10 @@ def main(argv=None) -> int:
             reports = [brain.ingest(source["path"]) for source in brain.store.stats()["sources"]]
             emit(reports)
             return int(any(report["errors"] for report in reports))
+        elif command == "repair":
+            report = brain.repair(arguments.dry_run)
+            emit(report)
+            return int(bool(report["errors"] or report["unavailable"]))
         elif command == "watch":
             watch_folders(brain, arguments.paths)
         elif command == "serve":

@@ -1,7 +1,7 @@
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 const token = $('meta[name="brain-token"]').content;
-const state = {kind: '', folder: null, query: '', view: 'library', limit: 30, status: null, results: [], request: 0, job: null, opener: null};
+const state = {kind: '', folder: null, query: '', view: 'library', limit: 30, status: null, results: [], request: 0, answerRequest: 0, job: null, opener: null};
 const paths = {
   grid: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
   folder: '<path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10H3z"/>',
@@ -179,7 +179,7 @@ function skeletons() {
 async function refreshSearch(refine = false) {
   const request = ++state.request;
   state.query = $('#search-input').value.trim();
-  $('#answer-panel').hidden = true;
+  closeAnswer();
   $('#empty-state').hidden = true;
   $('#results-description').textContent = state.query ? 'Finding your memories…' : 'Opening your collection…';
   $('#search-form').setAttribute('aria-busy', 'true');
@@ -208,7 +208,7 @@ function renderResults(response) {
   $('#results-description').textContent = `${response.results.length}${response.results.length === state.limit ? '+' : ''} ${filtered ? 'matching ' : ''}${response.results.length === 1 ? 'memory' : 'memories'}${state.query ? ` for “${state.query}”` : ''}`;
   $('#search-timing').textContent = `${response.seconds.toFixed(2)}s`;
   $('#clear-filters').hidden = !filtered;
-  $('#ask-button').hidden = !state.query || !response.results.length;
+  $('#ask-button').hidden = !state.query;
   $('#refine-button').hidden = !state.query || !response.results.some(item => item.kind === 'image');
   $('#load-more').hidden = response.results.length < state.limit || state.limit >= 100;
   $('#empty-state').hidden = response.results.length > 0;
@@ -252,16 +252,43 @@ function memoryCard(item) {
   return card;
 }
 
-async function inspect(item, opener, autoplay = false) {
+async function inspect(item, opener, autoplay = false, citation = null) {
   state.opener = opener;
   $('#inspector-title').textContent = item.name;
   $('#inspector-kind').textContent = {image: 'Saved image', audio: 'Voice note', text: 'Text note'}[item.kind];
   $('#inspector-date').textContent = `${new Date(item.captured_at * 1000).toLocaleString()} · ${bytes(item.size)}`;
   $('#inspector-media').replaceChildren(); $('#inspector-evidence').textContent = 'Loading source evidence…'; $('#inspector-paths').replaceChildren();
-  $('#original-link').href = `/api/files/${item.id}`;
+  const source = citation ? `/api/evidence-images/${item.id}` : `/api/files/${item.id}`;
+  $('#original-link').href = source;
+  $('#original-link').textContent = citation ? 'Open cited image' : 'Open original';
+  $('#original-link').hidden = false;
   $('#inspector').showModal();
   let audio;
-  if (item.kind === 'image') { const image = node('img'); image.src = `/api/files/${item.id}`; image.alt = item.name; $('#inspector-media').append(image); }
+  if (item.kind === 'image') {
+    const image = node('img'); image.alt = item.name;
+    if (citation) {
+      const frame = node('div', 'citation-image');
+      const highlight = node('span', 'citation-highlight');
+      const [left, top, right, bottom] = citation.box;
+      const [width, height] = citation.dimensions;
+      highlight.setAttribute('aria-hidden', 'true');
+      highlight.style.left = `${100 * left / width}%`;
+      highlight.style.top = `${100 * top / height}%`;
+      highlight.style.width = `${100 * (right - left) / width}%`;
+      highlight.style.height = `${100 * (bottom - top) / height}%`;
+      image.addEventListener('load', () => { highlight.hidden = false; }, {once: true});
+      image.addEventListener('error', () => {
+        frame.replaceChildren(node('p', 'helper', 'The cited image changed or is unavailable. Reindex the file to refresh its evidence.'));
+        $('#original-link').hidden = true;
+      }, {once: true});
+      highlight.hidden = true;
+      frame.append(image, highlight);
+      $('#inspector-media').append(frame);
+    } else {
+      $('#inspector-media').append(image);
+    }
+    image.src = source;
+  }
   if (item.kind === 'audio') {
     audio = node('audio'); audio.controls = true; audio.preload = 'metadata'; audio.src = `/api/files/${item.id}`; audio.setAttribute('aria-label', `Play ${item.name}`);
     audio.addEventListener('loadedmetadata', () => { if (item.start !== null) audio.currentTime = item.start; }, {once: true});
@@ -271,6 +298,7 @@ async function inspect(item, opener, autoplay = false) {
   try {
     const detail = await api(`/api/assets/${item.id}`);
     const evidence = $('#inspector-evidence'); evidence.replaceChildren();
+    if (citation) evidence.append(node('p', 'citation-quote', citation.text));
     if (audio) evidence.append(node('p', 'transcript-notice', 'Machine-generated transcript. Names and numbers may be misheard; listen to the original to verify.'));
     for (const chunk of detail.chunks) {
       if (!chunk.text) continue;
@@ -280,7 +308,7 @@ async function inspect(item, opener, autoplay = false) {
         segment.append(seek, node('p', '', chunk.text)); evidence.append(segment);
       } else evidence.append(node('p', '', chunk.text));
     }
-    if (!detail.chunks.some(chunk => chunk.text)) evidence.textContent = 'No text was extracted. This file is searchable through its visual embedding when visual indexing is enabled.';
+    if (!citation && !detail.chunks.some(chunk => chunk.text)) evidence.textContent = 'No text was extracted. This file is searchable through its visual embedding when visual indexing is enabled.';
     $('#inspector-paths').append(node('strong', '', 'Original file locations'));
     detail.paths.forEach(path => $('#inspector-paths').append(node('div', '', path)));
     if (detail.metadata.ocr_strategy === 'delta') $('#inspector-paths').append(node('p', '', `Changed-region OCR processed ${(detail.metadata.ocr_area_fraction * 100).toFixed(1)}% of this image and reused ${detail.metadata.reused_lines} text lines.`));
@@ -357,14 +385,57 @@ $$('[data-query]').forEach(button => button.addEventListener('click', () => {
 $('#date-filter').addEventListener('change', () => refreshSearch());
 $('#clear-filters').addEventListener('click', () => { $('#search-input').value = ''; $('#date-filter').value = ''; state.folder = null; state.limit = 30; $('.tab[data-kind=""]').click(); });
 $('#load-more').addEventListener('click', () => { state.limit = Math.min(100, state.limit + 30); refreshSearch(); });
-$('#refine-button').addEventListener('click', () => { toast('Retrying OCR on uncertain matching images…'); refreshSearch(true); });
-$('#ask-button').addEventListener('click', async () => {
-  $('#ask-button').disabled = true; $('#answer-panel').hidden = false; $('#answer-text').textContent = 'Reading the matching source excerpts…';
-  try { const response = await api('/api/ask', searchBody()); $('#answer-text').textContent = response.answer; $('#answer-mode').textContent = response.mode === 'extractive' ? 'Quoted source evidence. No answer-generation model was used.' : `Generated locally with ${response.model}. Verify the cited sources.`; }
-  catch (error) { $('#answer-text').textContent = error.message; }
-  finally { $('#ask-button').disabled = false; }
+function closeAnswer() {
+  state.answerRequest++;
+  $('#answer-panel').hidden = true;
+  $('#ask-button').disabled = false;
+  $('#refine-button').disabled = false;
+  $('#refine-button').hidden = !state.query || !state.results.some(item => item.kind === 'image');
+}
+
+async function showAnswer(refine = false) {
+  const request = ++state.answerRequest;
+  $('#ask-button').disabled = true;
+  $('#refine-button').disabled = true;
+  $('#answer-panel').hidden = false;
+  $('#answer-text').textContent = refine ? 'Retrying text recognition…' : 'Reading matching files…';
+  $('#answer-mode').textContent = '';
+  const citations = $('#answer-citations');
+  citations.replaceChildren();
+  citations.hidden = true;
+  try {
+    const response = await api('/api/ask', {...searchBody(), refine});
+    if (request !== state.answerRequest) return;
+    $('#answer-text').textContent = response.answer;
+    const related = new Map(response.results.map(item => [item.id, item]));
+    $('#refine-button').hidden = !response.results.some(item => item.kind === 'image');
+    for (const citation of response.citations) {
+      const line = node('li');
+      const button = node('button', 'text-button', `${citation.value} · ${citation.source}`);
+      button.addEventListener('click', () => inspect(related.get(citation.asset_id), button, false, citation));
+      line.append(button);
+      citations.append(line);
+    }
+    citations.hidden = !response.citations.length;
+    $('#answer-mode').textContent = response.mode === 'ollama' ? `Generated locally with ${response.model}. Verify the cited sources.` : '';
+    if (refine && response.refinement?.attempted === 0) $('#answer-mode').textContent = 'No matching image could be retried within the time budget.';
+    if (response.warnings.length) notice(response.warnings.join('\n'), true);
+  } catch (error) {
+    if (request === state.answerRequest) $('#answer-text').textContent = error.message;
+  } finally {
+    if (request === state.answerRequest) {
+      $('#ask-button').disabled = false;
+      $('#refine-button').disabled = false;
+    }
+  }
+}
+
+$('#refine-button').addEventListener('click', () => {
+  if (!$('#answer-panel').hidden) showAnswer(true);
+  else { toast('Retrying text recognition…'); refreshSearch(true); }
 });
-$('#close-answer').addEventListener('click', () => { $('#answer-panel').hidden = true; });
+$('#ask-button').addEventListener('click', () => showAnswer());
+$('#close-answer').addEventListener('click', closeAnswer);
 document.addEventListener('keydown', event => {
   if (event.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName) && !$('#inspector').open) { event.preventDefault(); setView('library'); $('#search-input').focus(); }
 });
