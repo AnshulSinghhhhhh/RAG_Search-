@@ -1,0 +1,93 @@
+{
+  "synthetic": true,
+  "generated_at": "2026-11-20T17:52:22.368186+05:30",
+  "scenarios": [
+    {
+      "id": "visual-white-shoe",
+      "query": "white sneakers",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ]
+    },
+    {
+      "id": "relative-date",
+      "query": "white sneaker last month",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ]
+    },
+    {
+      "id": "changed-price",
+      "query": "2499",
+      "kind": "image",
+      "expected_files": [
+        "capture_002.png"
+      ]
+    },
+    {
+      "id": "exact-receipt-number",
+      "query": "INV-2026-1042",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ]
+    },
+    {
+      "id": "cafe-receipt",
+      "query": "Juniper cafe flat white",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ]
+    },
+    {
+      "id": "developer-error",
+      "query": "ECONNREFUSED PostgreSQL connection failed",
+      "expected_files": [
+        "capture_004.png"
+      ]
+    },
+    {
+      "id": "semantic-note",
+      "query": "equipment to take camping",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ]
+    },
+    {
+      "id": "meeting-owner",
+      "query": "Who is responsible for the design review?",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ]
+    },
+    {
+      "id": "voice-cafe",
+      "query": "cafe near the old library",
+      "kind": "audio",
+      "expected_files": [
+        "memo_001.wav"
+      ]
+    },
+    {
+      "id": "voice-meeting",
+      "query": "Friday design meeting",
+      "kind": "audio",
+      "expected_files": [
+        "memo_002.wav"
+      ]
+    },
+    {
+      "id": "no-answer",
+      "query": "my passport number on a submarine",
+      "kind": "text",
+      "expected_files": []
+    }
+  ]
+}

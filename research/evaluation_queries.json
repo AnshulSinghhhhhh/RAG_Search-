@@ -1,0 +1,51 @@
+{
+  "description": "Exploratory queries authored after inspecting the synthetic corpus. Not a held-out benchmark. Labels stay outside the inbox.",
+  "additional_scenarios": [
+    {"id":"shoe-original-price","query":"2999","kind":"image","expected_files":["capture_001.png"],"category":"exact"},
+    {"id":"shoe-green-price","query":"3499","kind":"image","expected_files":["capture_003.png"],"category":"exact"},
+    {"id":"shoe-green-visual","query":"olive colored footwear","kind":"image","expected_files":["capture_003.png"],"category":"visual"},
+    {"id":"shoe-white-visual","query":"a pale cream low top shoe","kind":"image","expected_files":["capture_001.png","capture_002.png"],"category":"visual"},
+    {"id":"receipt-book-id","query":"BOOK-7718","kind":"image","expected_files":["receipt_002.png"],"category":"exact"},
+    {"id":"receipt-cafe-total","query":"690","kind":"image","expected_files":["receipt_001.png"],"category":"exact"},
+    {"id":"receipt-book-total","query":"640","kind":"image","expected_files":["receipt_002.png"],"category":"exact"},
+    {"id":"receipt-toast","query":"avocado toast and chocolate cake receipt","kind":"image","expected_files":["receipt_001.png"],"category":"lexical"},
+    {"id":"receipt-book-title","query":"Design of Everyday","kind":"image","expected_files":["receipt_002.png"],"category":"lexical"},
+    {"id":"error-port","query":"5432","kind":"image","expected_files":["capture_004.png"],"category":"exact"},
+    {"id":"error-remedy","query":"database service needs to be started","kind":"image","expected_files":["capture_004.png"],"category":"semantic"},
+    {"id":"travel-palace","query":"Hawa Mahal Saturday","kind":"image","expected_files":["capture_005.png"],"category":"lexical"},
+    {"id":"travel-fort","query":"Amber Fort Sunday 10 AM","kind":"image","expected_files":["capture_005.png"],"category":"lexical"},
+    {"id":"camping-light","query":"portable illumination for sleeping outdoors","kind":"text","expected_files":["note_002.txt"],"category":"semantic"},
+    {"id":"camping-weather","query":"what should I pack to stay dry in the rain","kind":"text","expected_files":["note_002.txt"],"category":"semantic"},
+    {"id":"camping-stove","query":"where is the camping stove stored","kind":"text","expected_files":["note_002.txt"],"category":"lexical"},
+    {"id":"note-migration","query":"who will prepare the database migration","kind":"text","expected_files":["note_001.md"],"category":"lexical"},
+    {"id":"note-deliverable","query":"what should be shipped before the review","kind":"text","expected_files":["note_001.md"],"category":"semantic"},
+    {"id":"voice-cafe-food","query":"flat white and avocado toast next Saturday","kind":"audio","expected_files":["memo_001.wav"],"category":"lexical"},
+    {"id":"voice-meeting-bring","query":"bring the new screenshots and search prototype","kind":"audio","expected_files":["memo_002.wav"],"category":"lexical"},
+    {"id":"absent-insurance","query":"my insurance policy identifier","kind":"text","expected_files":[],"category":"no-answer"},
+    {"id":"absent-approval","query":"who approved the production deployment","kind":"text","expected_files":[],"category":"no-answer"},
+    {"id":"absent-stove-serial","query":"camping stove serial number","kind":"text","expected_files":[],"category":"no-answer"},
+    {"id":"absent-wifi","query":"Juniper cafe wifi password","kind":"audio","expected_files":[],"category":"no-answer"},
+    {"id":"absent-cafe-phone","query":"phone number of the cafe near the old library","kind":"audio","expected_files":[],"category":"no-answer"},
+    {"id":"absent-dial-in","query":"Monday meeting dial in code","kind":"audio","expected_files":[],"category":"no-answer"},
+    {"id":"absent-hotel","query":"Jaipur hotel reservation confirmation number","kind":"image","expected_files":[],"category":"no-answer"},
+    {"id":"absent-shoe-size","query":"white sneaker available size 14","kind":"image","expected_files":[],"category":"no-answer"},
+    {"id":"absent-refund","query":"Juniper cafe refund transaction identifier","kind":"image","expected_files":[],"category":"no-answer"},
+    {"id":"absent-book-isbn","query":"ISBN barcode for Design of Everyday","kind":"image","expected_files":[],"category":"no-answer"},
+    {"id":"absent-mri","query":"my MRI diagnosis and hospital discharge summary","expected_files":[],"category":"no-answer"}
+  ],
+  "audio_references": {
+    "memo_001.wav": "A note for later. The cafe we liked was called Juniper Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+    "memo_002.wav": "Remember the project meeting. Priya is handling the design review on Friday at three in the afternoon. Bring the new screenshots and the search prototype."
+  },
+  "exact_fields": {
+    "capture_001.png": ["2999"],
+    "capture_002.png": ["2499"],
+    "capture_003.png": ["3499"],
+    "capture_004.png": ["ECONNREFUSED", "5432"],
+    "capture_005.png": ["Hawa Mahal", "Amber Fort"],
+    "receipt_001.png": ["690", "INV-2026-1042", "JUNIPER"],
+    "receipt_002.png": ["640", "BOOK-7718"],
+    "memo_001.wav": ["Juniper", "old library"],
+    "memo_002.wav": ["Priya", "Friday", "three"]
+  }
+}

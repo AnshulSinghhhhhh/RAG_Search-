@@ -1,0 +1,175 @@
+{
+  "pdf": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\output\\pdf\\adaptive_secondbrain_research_report.pdf",
+  "html": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\output\\research\\report.html",
+  "planned_pages": 15,
+  "derived": {
+    "ingestion_wall_reduction": 0.13432437416308818,
+    "isolated_delta_wall_change": 0.044487153459251694,
+    "control_medians_seconds": {
+      "dedup_full_ocr": 8.497751399998378,
+      "dedup_delta_ocr": 8.866635399999723
+    },
+    "control_delta_wall_change": 0.04340960127421645,
+    "uniform_random_hit_at_5": 0.8357864357864357,
+    "candidate_counts": [
+      {
+        "id": "visual-white-shoe",
+        "candidates": 7,
+        "relevant_assets": 2
+      },
+      {
+        "id": "relative-date",
+        "candidates": 2,
+        "relevant_assets": 2
+      },
+      {
+        "id": "changed-price",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "exact-receipt-number",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "cafe-receipt",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "developer-error",
+        "candidates": 11,
+        "relevant_assets": 1
+      },
+      {
+        "id": "semantic-note",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "meeting-owner",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "voice-cafe",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "voice-meeting",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "shoe-original-price",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "shoe-green-price",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "shoe-green-visual",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "shoe-white-visual",
+        "candidates": 7,
+        "relevant_assets": 2
+      },
+      {
+        "id": "receipt-book-id",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "receipt-cafe-total",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "receipt-book-total",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "receipt-toast",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "receipt-book-title",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "error-port",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "error-remedy",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "travel-palace",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "travel-fort",
+        "candidates": 7,
+        "relevant_assets": 1
+      },
+      {
+        "id": "camping-light",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "camping-weather",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "camping-stove",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "note-migration",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "note-deliverable",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "voice-cafe-food",
+        "candidates": 2,
+        "relevant_assets": 1
+      },
+      {
+        "id": "voice-meeting-bring",
+        "candidates": 2,
+        "relevant_assets": 1
+      }
+    ],
+    "image_field_successes": 12,
+    "image_field_checks": 12,
+    "raw_audio_wer": 0.03571428571428571,
+    "raw_audio_words": 56,
+    "raw_audio_edits": 2,
+    "min_reconstruction_cosine": 0.9995628595352173,
+    "refinement_attempts": 6,
+    "refinement_accepted": 0
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "paired": [
+    {
+      "mode": "delta",
+      "repetition": 1,
+      "wall_seconds": 0.7711144000004424,
+      "cpu_seconds": 2.828125,
+      "metrics": {
+        "ocr_strategy": "delta",
+        "ocr_area_fraction": 0.01604,
+        "reused_lines": 5
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "full",
+      "repetition": 1,
+      "wall_seconds": 0.6699079999998503,
+      "cpu_seconds": 2.734375,
+      "metrics": {
+        "ocr_strategy": "full",
+        "ocr_area_fraction": 1.0,
+        "reused_lines": 0
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "full",
+      "repetition": 2,
+      "wall_seconds": 0.7121182999999291,
+      "cpu_seconds": 3.03125,
+      "metrics": {
+        "ocr_strategy": "full",
+        "ocr_area_fraction": 1.0,
+        "reused_lines": 0
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "delta",
+      "repetition": 2,
+      "wall_seconds": 0.9607633000014175,
+      "cpu_seconds": 3.515625,
+      "metrics": {
+        "ocr_strategy": "delta",
+        "ocr_area_fraction": 0.01604,
+        "reused_lines": 5
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "delta",
+      "repetition": 3,
+      "wall_seconds": 0.698995400000058,
+      "cpu_seconds": 2.703125,
+      "metrics": {
+        "ocr_strategy": "delta",
+        "ocr_area_fraction": 0.01604,
+        "reused_lines": 5
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "full",
+      "repetition": 3,
+      "wall_seconds": 0.5128921999985323,
+      "cpu_seconds": 2.328125,
+      "metrics": {
+        "ocr_strategy": "full",
+        "ocr_area_fraction": 1.0,
+        "reused_lines": 0
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "full",
+      "repetition": 4,
+      "wall_seconds": 0.47996579999926325,
+      "cpu_seconds": 2.203125,
+      "metrics": {
+        "ocr_strategy": "full",
+        "ocr_area_fraction": 1.0,
+        "reused_lines": 0
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "delta",
+      "repetition": 4,
+      "wall_seconds": 0.5872358999986318,
+      "cpu_seconds": 2.4375,
+      "metrics": {
+        "ocr_strategy": "delta",
+        "ocr_area_fraction": 0.01604,
+        "reused_lines": 5
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "delta",
+      "repetition": 5,
+      "wall_seconds": 0.699710299999424,
+      "cpu_seconds": 2.9375,
+      "metrics": {
+        "ocr_strategy": "delta",
+        "ocr_area_fraction": 0.01604,
+        "reused_lines": 5
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+      "new_price_present": true,
+      "stale_price_present": false
+    },
+    {
+      "mode": "full",
+      "repetition": 5,
+      "wall_seconds": 0.9117160999994667,
+      "cpu_seconds": 3.640625,
+      "metrics": {
+        "ocr_strategy": "full",
+        "ocr_area_fraction": 1.0,
+        "reused_lines": 0
+      },
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER",
+      "new_price_present": true,
+      "stale_price_present": false
+    }
+  ],
+  "stress": [
+    {
+      "case": "same_pixels",
+      "wall_seconds": 0.005779099999926984,
+      "cpu_seconds": 0.0,
+      "ocr_strategy": "reuse",
+      "ocr_area_fraction": 0.0,
+      "reused_lines": 6,
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER"
+    },
+    {
+      "case": "jpeg_recompression",
+      "wall_seconds": 0.8414933999993082,
+      "cpu_seconds": 3.015625,
+      "ocr_strategy": "full",
+      "ocr_area_fraction": 1.0,
+      "reused_lines": 0,
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER"
+    },
+    {
+      "case": "vertical_shift_15px",
+      "wall_seconds": 0.758513300001141,
+      "cpu_seconds": 3.140625,
+      "ocr_strategy": "full",
+      "ocr_area_fraction": 1.0,
+      "reused_lines": 0,
+      "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2499 SAVE FOR LATER"
+    }
+  ]
+}

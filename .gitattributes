@@ -1,0 +1,15 @@
+# Keep measured inputs, evidence, and fingerprinted sources byte-for-byte.
+playground/inbox/** -text
+research/results/** -text
+research/*.py -text
+secondbrain/*.py -text
+output/** -text
+
+# Prevent line-ending conversion and textual diffs for binary artifacts.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.wav binary
+*.ttf binary

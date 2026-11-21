@@ -1,0 +1,85 @@
+mode,id,set,query,kind,expected_files,top_result,first_relevant_rank,hit_at_1,hit_at_5,abstained,wall_seconds
+hybrid,visual-white-shoe,original,white sneakers,image,capture_001.png|capture_002.png,capture_001.png,1,True,True,False,0.05527139999867359
+hybrid,relative-date,original,white sneaker last month,image,capture_001.png|capture_002.png,capture_001.png,1,True,True,False,0.039685500001723995
+hybrid,changed-price,original,2499,image,capture_002.png,capture_002.png,1,True,True,False,0.05700510000133363
+hybrid,exact-receipt-number,original,INV-2026-1042,image,receipt_001.png,receipt_001.png,1,True,True,False,0.07291520000035234
+hybrid,cafe-receipt,original,Juniper cafe flat white,image,receipt_001.png,receipt_001.png,1,True,True,False,0.09500500000103784
+hybrid,developer-error,original,ECONNREFUSED PostgreSQL connection failed,,capture_004.png,capture_004.png,1,True,True,False,0.07562479999978677
+hybrid,semantic-note,original,equipment to take camping,text,note_002.txt,note_002.txt,1,True,True,False,0.021474299999681534
+hybrid,meeting-owner,original,Who is responsible for the design review?,text,note_001.md,note_001.md,1,True,True,False,0.023078199999872595
+hybrid,voice-cafe,original,cafe near the old library,audio,memo_001.wav,memo_001.wav,1,True,True,False,0.02117300000099931
+hybrid,voice-meeting,original,Friday design meeting,audio,memo_002.wav,memo_002.wav,1,True,True,False,0.019911200000933604
+hybrid,no-answer,original,my passport number on a submarine,text,,note_001.md,,False,False,False,0.019816800000626245
+hybrid,shoe-original-price,exploratory,2999,image,capture_001.png,capture_001.png,1,True,True,False,0.04318849999981467
+hybrid,shoe-green-price,exploratory,3499,image,capture_003.png,capture_003.png,1,True,True,False,0.04971300000033807
+hybrid,shoe-green-visual,exploratory,olive colored footwear,image,capture_003.png,capture_001.png,2,False,True,False,0.04155770000033954
+hybrid,shoe-white-visual,exploratory,a pale cream low top shoe,image,capture_001.png|capture_002.png,capture_005.png,2,False,True,False,0.04398320000109379
+hybrid,receipt-book-id,exploratory,BOOK-7718,image,receipt_002.png,receipt_002.png,1,True,True,False,0.044500500000140164
+hybrid,receipt-cafe-total,exploratory,690,image,receipt_001.png,receipt_001.png,1,True,True,False,0.04504500000075495
+hybrid,receipt-book-total,exploratory,640,image,receipt_002.png,receipt_002.png,1,True,True,False,0.04140480000023672
+hybrid,receipt-toast,exploratory,avocado toast and chocolate cake receipt,image,receipt_001.png,receipt_001.png,1,True,True,False,0.04802100000051723
+hybrid,receipt-book-title,exploratory,Design of Everyday,image,receipt_002.png,receipt_002.png,1,True,True,False,0.0492125999990094
+hybrid,error-port,exploratory,5432,image,capture_004.png,capture_004.png,1,True,True,False,0.04781670000011218
+hybrid,error-remedy,exploratory,database service needs to be started,image,capture_004.png,capture_004.png,1,True,True,False,0.047580599999491824
+hybrid,travel-palace,exploratory,Hawa Mahal Saturday,image,capture_005.png,capture_005.png,1,True,True,False,0.05561979999947653
+hybrid,travel-fort,exploratory,Amber Fort Sunday 10 AM,image,capture_005.png,capture_005.png,1,True,True,False,0.05583239999941725
+hybrid,camping-light,exploratory,portable illumination for sleeping outdoors,text,note_002.txt,note_001.md,2,False,True,False,0.01970450000044366
+hybrid,camping-weather,exploratory,what should I pack to stay dry in the rain,text,note_002.txt,note_002.txt,1,True,True,False,0.02005520000057004
+hybrid,camping-stove,exploratory,where is the camping stove stored,text,note_002.txt,note_002.txt,1,True,True,False,0.019052899999223882
+hybrid,note-migration,exploratory,who will prepare the database migration,text,note_001.md,note_001.md,1,True,True,False,0.01972080000086862
+hybrid,note-deliverable,exploratory,what should be shipped before the review,text,note_001.md,note_001.md,1,True,True,False,0.022119499999462278
+hybrid,voice-cafe-food,exploratory,flat white and avocado toast next Saturday,audio,memo_001.wav,memo_001.wav,1,True,True,False,0.023176900000180467
+hybrid,voice-meeting-bring,exploratory,bring the new screenshots and search prototype,audio,memo_002.wav,memo_002.wav,1,True,True,False,0.022930400000404916
+hybrid,absent-insurance,exploratory,my insurance policy identifier,text,,note_001.md,,False,False,False,0.01876329999868176
+hybrid,absent-approval,exploratory,who approved the production deployment,text,,note_001.md,,False,False,False,0.01965629999904195
+hybrid,absent-stove-serial,exploratory,camping stove serial number,text,,note_002.txt,,False,False,False,0.01872699999876204
+hybrid,absent-wifi,exploratory,Juniper cafe wifi password,audio,,memo_001.wav,,False,False,False,0.018250799999805167
+hybrid,absent-cafe-phone,exploratory,phone number of the cafe near the old library,audio,,memo_001.wav,,False,False,False,0.019086700000116252
+hybrid,absent-dial-in,exploratory,Monday meeting dial in code,audio,,memo_002.wav,,False,False,False,0.017592899999726797
+hybrid,absent-hotel,exploratory,Jaipur hotel reservation confirmation number,image,,capture_005.png,,False,False,False,0.04007690000071307
+hybrid,absent-shoe-size,exploratory,white sneaker available size 14,image,,capture_002.png,,False,False,False,0.04512489999979152
+hybrid,absent-refund,exploratory,Juniper cafe refund transaction identifier,image,,receipt_001.png,,False,False,False,0.048429200000100536
+hybrid,absent-book-isbn,exploratory,ISBN barcode for Design of Everyday,image,,receipt_002.png,,False,False,False,0.04708149999896705
+hybrid,absent-mri,exploratory,my MRI diagnosis and hospital discharge summary,,,capture_004.png,,False,False,False,0.043099399999846355
+lexical,visual-white-shoe,original,white sneakers,image,capture_001.png|capture_002.png,capture_001.png,1,True,True,False,0.013579800001025433
+lexical,relative-date,original,white sneaker last month,image,capture_001.png|capture_002.png,capture_001.png,1,True,True,False,0.012545699999463977
+lexical,changed-price,original,2499,image,capture_002.png,capture_002.png,1,True,True,False,0.00966320000043197
+lexical,exact-receipt-number,original,INV-2026-1042,image,receipt_001.png,receipt_001.png,1,True,True,False,0.010174799999731476
+lexical,cafe-receipt,original,Juniper cafe flat white,image,receipt_001.png,receipt_001.png,1,True,True,False,0.02119449999918288
+lexical,developer-error,original,ECONNREFUSED PostgreSQL connection failed,,capture_004.png,capture_004.png,1,True,True,False,0.011950400001296657
+lexical,semantic-note,original,equipment to take camping,text,note_002.txt,note_002.txt,1,True,True,False,0.010896000001594075
+lexical,meeting-owner,original,Who is responsible for the design review?,text,note_001.md,note_001.md,1,True,True,False,0.01634819999890169
+lexical,voice-cafe,original,cafe near the old library,audio,memo_001.wav,memo_001.wav,1,True,True,False,0.014861199999359087
+lexical,voice-meeting,original,Friday design meeting,audio,memo_002.wav,memo_002.wav,1,True,True,False,0.008512899999914225
+lexical,no-answer,original,my passport number on a submarine,text,,,,False,False,True,0.0039354999989882344
+lexical,shoe-original-price,exploratory,2999,image,capture_001.png,capture_001.png,1,True,True,False,0.008675800001583411
+lexical,shoe-green-price,exploratory,3499,image,capture_003.png,capture_003.png,1,True,True,False,0.009201599999869359
+lexical,shoe-green-visual,exploratory,olive colored footwear,image,capture_003.png,capture_001.png,3,False,True,False,0.017479599999205675
+lexical,shoe-white-visual,exploratory,a pale cream low top shoe,image,capture_001.png|capture_002.png,capture_005.png,,False,False,False,0.008518799999365001
+lexical,receipt-book-id,exploratory,BOOK-7718,image,receipt_002.png,receipt_002.png,1,True,True,False,0.007670900000448455
+lexical,receipt-cafe-total,exploratory,690,image,receipt_001.png,receipt_001.png,1,True,True,False,0.008465400000204681
+lexical,receipt-book-total,exploratory,640,image,receipt_002.png,receipt_002.png,1,True,True,False,0.007074999999531428
+lexical,receipt-toast,exploratory,avocado toast and chocolate cake receipt,image,receipt_001.png,receipt_001.png,1,True,True,False,0.011312300001009135
+lexical,receipt-book-title,exploratory,Design of Everyday,image,receipt_002.png,receipt_002.png,1,True,True,False,0.01830320000044594
+lexical,error-port,exploratory,5432,image,capture_004.png,capture_004.png,1,True,True,False,0.007258699999511009
+lexical,error-remedy,exploratory,database service needs to be started,image,capture_004.png,capture_004.png,1,True,True,False,0.007125500000256579
+lexical,travel-palace,exploratory,Hawa Mahal Saturday,image,capture_005.png,capture_005.png,1,True,True,False,0.007357300000876421
+lexical,travel-fort,exploratory,Amber Fort Sunday 10 AM,image,capture_005.png,capture_005.png,1,True,True,False,0.006989699999394361
+lexical,camping-light,exploratory,portable illumination for sleeping outdoors,text,note_002.txt,note_001.md,,False,False,False,0.006736999999702675
+lexical,camping-weather,exploratory,what should I pack to stay dry in the rain,text,note_002.txt,note_002.txt,1,True,True,False,0.010736700000052224
+lexical,camping-stove,exploratory,where is the camping stove stored,text,note_002.txt,note_002.txt,1,True,True,False,0.010698599999159342
+lexical,note-migration,exploratory,who will prepare the database migration,text,note_001.md,note_001.md,1,True,True,False,0.010389600000053179
+lexical,note-deliverable,exploratory,what should be shipped before the review,text,note_001.md,note_001.md,1,True,True,False,0.01105200000165496
+lexical,voice-cafe-food,exploratory,flat white and avocado toast next Saturday,audio,memo_001.wav,memo_001.wav,1,True,True,False,0.00936329999967711
+lexical,voice-meeting-bring,exploratory,bring the new screenshots and search prototype,audio,memo_002.wav,memo_002.wav,1,True,True,False,0.011275700000624056
+lexical,absent-insurance,exploratory,my insurance policy identifier,text,,,,False,False,True,0.003644200000053388
+lexical,absent-approval,exploratory,who approved the production deployment,text,,note_001.md,,False,False,False,0.010339899999962654
+lexical,absent-stove-serial,exploratory,camping stove serial number,text,,note_002.txt,,False,False,False,0.00600990000020829
+lexical,absent-wifi,exploratory,Juniper cafe wifi password,audio,,memo_001.wav,,False,False,False,0.006796400000894209
+lexical,absent-cafe-phone,exploratory,phone number of the cafe near the old library,audio,,memo_001.wav,,False,False,False,0.010527499998715939
+lexical,absent-dial-in,exploratory,Monday meeting dial in code,audio,,memo_002.wav,,False,False,False,0.0074140000015177066
+lexical,absent-hotel,exploratory,Jaipur hotel reservation confirmation number,image,,capture_005.png,,False,False,False,0.007640300000275602
+lexical,absent-shoe-size,exploratory,white sneaker available size 14,image,,capture_001.png,,False,False,False,0.016863200000443612
+lexical,absent-refund,exploratory,Juniper cafe refund transaction identifier,image,,receipt_001.png,,False,False,False,0.007497000000512344
+lexical,absent-book-isbn,exploratory,ISBN barcode for Design of Everyday,image,,receipt_002.png,,False,False,False,0.017736000001605134
+lexical,absent-mri,exploratory,my MRI diagnosis and hospital discharge summary,,,note_002.txt,,False,False,False,0.018117600000550738

@@ -1,0 +1,2360 @@
+[
+  {
+    "mode": "adaptive",
+    "repetition": 1,
+    "timing": {
+      "wall_seconds": 9.189884000001257,
+      "cpu_seconds": 38.40625
+    },
+    "report": {
+      "total": 12,
+      "indexed": 11,
+      "cached": 0,
+      "duplicate": 1,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.022931200001039542,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.01615519999904791,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.8032194000006712,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.5678948000004311,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.6517094999999244,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "duplicate",
+          "seconds": 0.011370599999281694
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.9236318999992363,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "delta",
+          "ocr_area_fraction": 0.01604,
+          "reused_lines": 5
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.7647987000000285,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6700946999990265,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.7190415999994002,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 1.972363700000642,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.8938780000007682,
+          "chunks": 1,
+          "vectors": 1
+        }
+      ],
+      "seconds": 9.176
+    },
+    "stats": {
+      "assets": 11,
+      "kinds": {
+        "audio": 2,
+        "image": 7,
+        "text": 2
+      },
+      "locations": 12,
+      "chunks": 11,
+      "vectors": 18,
+      "vector_bytes": 7808,
+      "float32_vector_bytes": 31232,
+      "database_bytes": 139264,
+      "source_bytes": 1336252,
+      "sources": [
+        {
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox",
+          "added_at": 1795190611.0045085
+        }
+      ],
+      "events": [
+        {
+          "id": 12,
+          "time": 1795190620.1858778,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.8938780000007682,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 11,
+          "time": 1795190618.2772593,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 1.972363700000642,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 10,
+          "time": 1795190616.2914484,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.7190415999994002,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 9,
+          "time": 1795190615.5594244,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6700946999990265,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 8,
+          "time": 1795190614.8751214,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.7647987000000285,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 7,
+          "time": 1795190614.0960093,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.9236318999992363,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "delta",
+            "ocr_area_fraction": 0.01604,
+            "reused_lines": 5
+          }
+        },
+        {
+          "id": 6,
+          "time": 1795190613.157818,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "duplicate",
+          "seconds": 0.011370599999281694,
+          "detail": {}
+        },
+        {
+          "id": 5,
+          "time": 1795190613.1399727,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.6517094999999244,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 4,
+          "time": 1795190612.4743724,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.5678948000004311,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 3,
+          "time": 1795190611.8935866,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.8032194000006712,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 2,
+          "time": 1795190611.0772517,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.01615519999904791,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 1,
+          "time": 1795190611.0489385,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.022931200001039542,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        }
+      ]
+    },
+    "extractor_calls": [
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.5991584000003058,
+        "cpu_seconds": 2.90625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.42311640000116313,
+        "cpu_seconds": 1.953125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5010423000003357,
+        "cpu_seconds": 2.171875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          172,
+          69
+        ],
+        "wall_seconds": 0.7568129999999655,
+        "cpu_seconds": 2.96875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.6302842000004603,
+        "cpu_seconds": 2.671875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5288150000014866,
+        "cpu_seconds": 2.328125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5774053000004642,
+        "cpu_seconds": 2.53125
+      },
+      {
+        "operation": "asr",
+        "name": "memo_001.wav",
+        "wall_seconds": 1.9527257999998255,
+        "cpu_seconds": 7.421875
+      },
+      {
+        "operation": "asr",
+        "name": "memo_002.wav",
+        "wall_seconds": 1.8736795999993774,
+        "cpu_seconds": 7.5625
+      }
+    ]
+  },
+  {
+    "mode": "eager",
+    "repetition": 1,
+    "timing": {
+      "wall_seconds": 10.088746799998262,
+      "cpu_seconds": 42.109375
+    },
+    "report": {
+      "total": 12,
+      "indexed": 12,
+      "cached": 0,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.019662299999254174,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.01610909999908472,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.631341500000417,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.6177475999993476,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7550082999987353,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "indexed",
+          "seconds": 0.6221277999993617,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.6716593000001012,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6685644999997749,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6890616000000591,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.6853424000000814,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.375656500000332,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 2.154852400000891,
+          "chunks": 1,
+          "vectors": 1
+        }
+      ],
+      "seconds": 10.076
+    },
+    "stats": {
+      "assets": 11,
+      "kinds": {
+        "audio": 2,
+        "image": 7,
+        "text": 2
+      },
+      "locations": 12,
+      "chunks": 11,
+      "vectors": 18,
+      "vector_bytes": 7808,
+      "float32_vector_bytes": 31232,
+      "database_bytes": 139264,
+      "source_bytes": 1336252,
+      "sources": [
+        {
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox",
+          "added_at": 1795190620.2259915
+        }
+      ],
+      "events": [
+        {
+          "id": 12,
+          "time": 1795190630.307668,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 2.154852400000891,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 11,
+          "time": 1795190628.1387756,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.375656500000332,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 10,
+          "time": 1795190625.7493045,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.6853424000000814,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 9,
+          "time": 1795190625.0488677,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6890616000000591,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 8,
+          "time": 1795190624.345576,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6685644999997749,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 7,
+          "time": 1795190623.662906,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.6716593000001012,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 6,
+          "time": 1795190622.9790905,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "indexed",
+          "seconds": 0.6221277999993617,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 5,
+          "time": 1795190622.3410606,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7550082999987353,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 4,
+          "time": 1795190621.5720272,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.6177475999993476,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 3,
+          "time": 1795190620.9397886,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.631341500000417,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 2,
+          "time": 1795190620.294666,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.01610909999908472,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 1,
+          "time": 1795190620.2647095,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.019662299999254174,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        }
+      ]
+    },
+    "extractor_calls": [
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.47926530000040657,
+        "cpu_seconds": 2.375
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.4385874999989028,
+        "cpu_seconds": 1.96875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.6003670999998576,
+        "cpu_seconds": 2.546875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.47831070000029285,
+        "cpu_seconds": 2.203125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5240183000005345,
+        "cpu_seconds": 2.296875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5326948999991146,
+        "cpu_seconds": 2.3125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5445786000000226,
+        "cpu_seconds": 2.265625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5294828000005509,
+        "cpu_seconds": 2.375
+      },
+      {
+        "operation": "asr",
+        "name": "memo_001.wav",
+        "wall_seconds": 2.355371199999354,
+        "cpu_seconds": 8.84375
+      },
+      {
+        "operation": "asr",
+        "name": "memo_002.wav",
+        "wall_seconds": 2.135298799999873,
+        "cpu_seconds": 8.40625
+      }
+    ]
+  },
+  {
+    "mode": "eager",
+    "repetition": 2,
+    "timing": {
+      "wall_seconds": 9.190211099999942,
+      "cpu_seconds": 38.78125
+    },
+    "report": {
+      "total": 12,
+      "indexed": 12,
+      "cached": 0,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.0186349000014161,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.0159008000009635,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.8071884000000864,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.5425673000008828,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.6631985000003624,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "indexed",
+          "seconds": 0.6643656999985978,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.638784000000669,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6164814000003389,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6080005999992864,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.6288987000007182,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 1.896801000000778,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.8903330999983154,
+          "chunks": 1,
+          "vectors": 1
+        }
+      ],
+      "seconds": 9.178
+    },
+    "stats": {
+      "assets": 11,
+      "kinds": {
+        "audio": 2,
+        "image": 7,
+        "text": 2
+      },
+      "locations": 12,
+      "chunks": 11,
+      "vectors": 18,
+      "vector_bytes": 7808,
+      "float32_vector_bytes": 31232,
+      "database_bytes": 139264,
+      "source_bytes": 1336252,
+      "sources": [
+        {
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox",
+          "added_at": 1795190630.3452835
+        }
+      ],
+      "events": [
+        {
+          "id": 12,
+          "time": 1795190639.5297205,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.8903330999983154,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 11,
+          "time": 1795190637.6164005,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 1.896801000000778,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 10,
+          "time": 1795190635.7076058,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.6288987000007182,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 9,
+          "time": 1795190635.0551016,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6080005999992864,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 8,
+          "time": 1795190634.4322946,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6164814000003389,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 7,
+          "time": 1795190633.7915974,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.638784000000669,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 6,
+          "time": 1795190633.1400044,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "indexed",
+          "seconds": 0.6643656999985978,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 5,
+          "time": 1795190632.4640055,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.6631985000003624,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 4,
+          "time": 1795190631.7877133,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.5425673000008828,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 3,
+          "time": 1795190631.2323105,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.8071884000000864,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 2,
+          "time": 1795190630.4112835,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.0159008000009635,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 1,
+          "time": 1795190630.382284,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.0186349000014161,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        }
+      ]
+    },
+    "extractor_calls": [
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.652666500000123,
+        "cpu_seconds": 2.921875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.4099222999993799,
+        "cpu_seconds": 1.890625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5354803999998694,
+        "cpu_seconds": 2.484375
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5165911000003689,
+        "cpu_seconds": 2.296875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.49301740000009886,
+        "cpu_seconds": 2.28125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.4725431999995635,
+        "cpu_seconds": 2.0625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.44499550000000454,
+        "cpu_seconds": 1.921875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.49054660000001604,
+        "cpu_seconds": 2.140625
+      },
+      {
+        "operation": "asr",
+        "name": "memo_001.wav",
+        "wall_seconds": 1.8797346999999718,
+        "cpu_seconds": 7.09375
+      },
+      {
+        "operation": "asr",
+        "name": "memo_002.wav",
+        "wall_seconds": 1.8728718999991543,
+        "cpu_seconds": 7.546875
+      }
+    ]
+  },
+  {
+    "mode": "adaptive",
+    "repetition": 2,
+    "timing": {
+      "wall_seconds": 8.505095000000438,
+      "cpu_seconds": 35.8125
+    },
+    "report": {
+      "total": 12,
+      "indexed": 11,
+      "cached": 0,
+      "duplicate": 1,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.01832749999994121,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.014646999999968102,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.6043405000000348,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.5158071999994718,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7436947000005603,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "duplicate",
+          "seconds": 0.010885799998504808
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.6476835000012215,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "delta",
+          "ocr_area_fraction": 0.01604,
+          "reused_lines": 5
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6203764999991108,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6863649000006262,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.5466381999995065,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.027485999999044,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.869245600000795,
+          "chunks": 1,
+          "vectors": 1
+        }
+      ],
+      "seconds": 8.493
+    },
+    "stats": {
+      "assets": 11,
+      "kinds": {
+        "audio": 2,
+        "image": 7,
+        "text": 2
+      },
+      "locations": 12,
+      "chunks": 11,
+      "vectors": 18,
+      "vector_bytes": 7808,
+      "float32_vector_bytes": 31232,
+      "database_bytes": 139264,
+      "source_bytes": 1336252,
+      "sources": [
+        {
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox",
+          "added_at": 1795190639.5629406
+        }
+      ],
+      "events": [
+        {
+          "id": 12,
+          "time": 1795190648.0611017,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.869245600000795,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 11,
+          "time": 1795190646.1791122,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.027485999999044,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 10,
+          "time": 1795190644.1259363,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.5466381999995065,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 9,
+          "time": 1795190643.554482,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6863649000006262,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 8,
+          "time": 1795190642.8438244,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6203764999991108,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 7,
+          "time": 1795190642.211465,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.6476835000012215,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "delta",
+            "ocr_area_fraction": 0.01604,
+            "reused_lines": 5
+          }
+        },
+        {
+          "id": 6,
+          "time": 1795190641.5504737,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "duplicate",
+          "seconds": 0.010885799998504808,
+          "detail": {}
+        },
+        {
+          "id": 5,
+          "time": 1795190641.5334735,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7436947000005603,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 4,
+          "time": 1795190640.7752228,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.5158071999994718,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 3,
+          "time": 1795190640.2448194,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.6043405000000348,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 2,
+          "time": 1795190639.6270688,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.014646999999968102,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 1,
+          "time": 1795190639.5999615,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.01832749999994121,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        }
+      ]
+    },
+    "extractor_calls": [
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.4477563000000373,
+        "cpu_seconds": 2.3125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.362220700000762,
+        "cpu_seconds": 1.609375
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5913169000014022,
+        "cpu_seconds": 2.5
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          172,
+          69
+        ],
+        "wall_seconds": 0.5080190999997285,
+        "cpu_seconds": 2.046875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.47238970000034897,
+        "cpu_seconds": 2.046875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5482402999987244,
+        "cpu_seconds": 2.203125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.41255980000096315,
+        "cpu_seconds": 1.828125
+      },
+      {
+        "operation": "asr",
+        "name": "memo_001.wav",
+        "wall_seconds": 2.0084631999998237,
+        "cpu_seconds": 7.65625
+      },
+      {
+        "operation": "asr",
+        "name": "memo_002.wav",
+        "wall_seconds": 1.8522102999995695,
+        "cpu_seconds": 7.625
+      }
+    ]
+  },
+  {
+    "mode": "adaptive",
+    "repetition": 3,
+    "timing": {
+      "wall_seconds": 8.733582199998636,
+      "cpu_seconds": 36.40625
+    },
+    "report": {
+      "total": 12,
+      "indexed": 11,
+      "cached": 0,
+      "duplicate": 1,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.019262699999671895,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.016200199999730103,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.6346896000013658,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.6370692000000417,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7476580000002286,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "duplicate",
+          "seconds": 0.01002139999945939
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.6986356999987038,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "delta",
+          "ocr_area_fraction": 0.01604,
+          "reused_lines": 5
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6392954000002646,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.5833110000003217,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.5640357000011136,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.0327699999998003,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.9722930000007182,
+          "chunks": 1,
+          "vectors": 1
+        }
+      ],
+      "seconds": 8.72
+    },
+    "stats": {
+      "assets": 11,
+      "kinds": {
+        "audio": 2,
+        "image": 7,
+        "text": 2
+      },
+      "locations": 12,
+      "chunks": 11,
+      "vectors": 18,
+      "vector_bytes": 7808,
+      "float32_vector_bytes": 31232,
+      "database_bytes": 139264,
+      "source_bytes": 1336252,
+      "sources": [
+        {
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox",
+          "added_at": 1795190648.1016324
+        }
+      ],
+      "events": [
+        {
+          "id": 12,
+          "time": 1795190656.828693,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 1.9722930000007182,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 11,
+          "time": 1795190654.8434954,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.0327699999998003,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 10,
+          "time": 1795190652.7965796,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.5640357000011136,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 9,
+          "time": 1795190652.2096598,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.5833110000003217,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 8,
+          "time": 1795190651.6117325,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6392954000002646,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 7,
+          "time": 1795190650.9590657,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.6986356999987038,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "delta",
+            "ocr_area_fraction": 0.01604,
+            "reused_lines": 5
+          }
+        },
+        {
+          "id": 6,
+          "time": 1795190650.246528,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "duplicate",
+          "seconds": 0.01002139999945939,
+          "detail": {}
+        },
+        {
+          "id": 5,
+          "time": 1795190650.2315276,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7476580000002286,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 4,
+          "time": 1795190649.4691713,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.6370692000000417,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 3,
+          "time": 1795190648.8179264,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.6346896000013658,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 2,
+          "time": 1795190648.1708195,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.016200199999730103,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 1,
+          "time": 1795190648.1407926,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.019262699999671895,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        }
+      ]
+    },
+    "extractor_calls": [
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.4727450999998837,
+        "cpu_seconds": 2.21875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.4575359999998909,
+        "cpu_seconds": 2.078125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.6090776999990339,
+        "cpu_seconds": 2.578125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          172,
+          69
+        ],
+        "wall_seconds": 0.526886800000284,
+        "cpu_seconds": 2.140625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.48999060000096506,
+        "cpu_seconds": 2.140625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.4507078000006004,
+        "cpu_seconds": 2.015625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.4245950999993511,
+        "cpu_seconds": 1.828125
+      },
+      {
+        "operation": "asr",
+        "name": "memo_001.wav",
+        "wall_seconds": 2.0132851999987906,
+        "cpu_seconds": 7.578125
+      },
+      {
+        "operation": "asr",
+        "name": "memo_002.wav",
+        "wall_seconds": 1.9544970000006288,
+        "cpu_seconds": 7.78125
+      }
+    ]
+  },
+  {
+    "mode": "eager",
+    "repetition": 3,
+    "timing": {
+      "wall_seconds": 10.82632779999949,
+      "cpu_seconds": 43.90625
+    },
+    "report": {
+      "total": 12,
+      "indexed": 12,
+      "cached": 0,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.01966809999976249,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.016667099998812773,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.6620579000009457,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.60760449999907,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7620374000016454,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "indexed",
+          "seconds": 0.7256104000007326,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.774087600000712,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6525753999994777,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6517946999993001,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.7494843999993464,
+          "chunks": 1,
+          "vectors": 2,
+          "ocr_strategy": "full",
+          "ocr_area_fraction": 1.0,
+          "reused_lines": 0
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.7094598000003316,
+          "chunks": 1,
+          "vectors": 1
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 2.277900100001716,
+          "chunks": 1,
+          "vectors": 1
+        }
+      ],
+      "seconds": 10.815
+    },
+    "stats": {
+      "assets": 11,
+      "kinds": {
+        "audio": 2,
+        "image": 7,
+        "text": 2
+      },
+      "locations": 12,
+      "chunks": 11,
+      "vectors": 18,
+      "vector_bytes": 7808,
+      "float32_vector_bytes": 31232,
+      "database_bytes": 139264,
+      "source_bytes": 1336252,
+      "sources": [
+        {
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox",
+          "added_at": 1795190656.8666956
+        }
+      ],
+      "events": [
+        {
+          "id": 12,
+          "time": 1795190667.6861277,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "indexed",
+          "seconds": 2.277900100001716,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 11,
+          "time": 1795190665.3944304,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "indexed",
+          "seconds": 2.7094598000003316,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 10,
+          "time": 1795190662.6699867,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "indexed",
+          "seconds": 0.7494843999993464,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 9,
+          "time": 1795190661.9041507,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "indexed",
+          "seconds": 0.6517946999993001,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 8,
+          "time": 1795190661.2360246,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "indexed",
+          "seconds": 0.6525753999994777,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 7,
+          "time": 1795190660.570583,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "indexed",
+          "seconds": 0.774087600000712,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 6,
+          "time": 1795190659.7708817,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "indexed",
+          "seconds": 0.7256104000007326,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 5,
+          "time": 1795190659.0322027,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "indexed",
+          "seconds": 0.7620374000016454,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 4,
+          "time": 1795190658.2430809,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "indexed",
+          "seconds": 0.60760449999907,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 3,
+          "time": 1795190657.6107652,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "indexed",
+          "seconds": 0.6620579000009457,
+          "detail": {
+            "chunks": 1,
+            "vectors": 2,
+            "ocr_strategy": "full",
+            "ocr_area_fraction": 1.0,
+            "reused_lines": 0
+          }
+        },
+        {
+          "id": 2,
+          "time": 1795190656.9351645,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "indexed",
+          "seconds": 0.016667099998812773,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        },
+        {
+          "id": 1,
+          "time": 1795190656.9047098,
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "indexed",
+          "seconds": 0.01966809999976249,
+          "detail": {
+            "chunks": 1,
+            "vectors": 1
+          }
+        }
+      ]
+    },
+    "extractor_calls": [
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.4974846000004618,
+        "cpu_seconds": 2.421875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          760,
+          900
+        ],
+        "wall_seconds": 0.38645139999971434,
+        "cpu_seconds": 1.78125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.6200957999990351,
+        "cpu_seconds": 2.578125
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5530051000005187,
+        "cpu_seconds": 2.421875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.6144545000006474,
+        "cpu_seconds": 2.71875
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.520228400000633,
+        "cpu_seconds": 2.359375
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.47264279999944847,
+        "cpu_seconds": 2.140625
+      },
+      {
+        "operation": "ocr",
+        "size": [
+          1000,
+          740
+        ],
+        "wall_seconds": 0.5748565999983839,
+        "cpu_seconds": 2.359375
+      },
+      {
+        "operation": "asr",
+        "name": "memo_001.wav",
+        "wall_seconds": 2.6794161000016175,
+        "cpu_seconds": 9.671875
+      },
+      {
+        "operation": "asr",
+        "name": "memo_002.wav",
+        "wall_seconds": 2.258770899999945,
+        "cpu_seconds": 8.453125
+      }
+    ]
+  }
+]

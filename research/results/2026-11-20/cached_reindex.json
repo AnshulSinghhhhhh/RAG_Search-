@@ -1,0 +1,432 @@
+[
+  {
+    "report": {
+      "total": 12,
+      "indexed": 0,
+      "cached": 12,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "cached",
+          "seconds": 0.010685499999453896
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "cached",
+          "seconds": 0.011849900000015623
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "cached",
+          "seconds": 0.010284699999829172
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "cached",
+          "seconds": 0.011347600000590319
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "cached",
+          "seconds": 0.010695000000850996
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "cached",
+          "seconds": 0.010911299999861512
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "cached",
+          "seconds": 0.01101569999991625
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "cached",
+          "seconds": 0.0108369000008679
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "cached",
+          "seconds": 0.01092160000007425
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "cached",
+          "seconds": 0.010830899998836685
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "cached",
+          "seconds": 0.011778899999626447
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "cached",
+          "seconds": 0.011503199999424396
+        }
+      ],
+      "seconds": 0.2
+    },
+    "wall_seconds": 0.21040240000002086,
+    "cpu_seconds": 0.671875
+  },
+  {
+    "report": {
+      "total": 12,
+      "indexed": 0,
+      "cached": 12,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "cached",
+          "seconds": 0.011435599999458645
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "cached",
+          "seconds": 0.01141030000144383
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "cached",
+          "seconds": 0.010760099999970407
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "cached",
+          "seconds": 0.009898499998598709
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "cached",
+          "seconds": 0.010862700000870973
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "cached",
+          "seconds": 0.011118700000224635
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "cached",
+          "seconds": 0.011053900001570582
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "cached",
+          "seconds": 0.0105755999993562
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "cached",
+          "seconds": 0.010434900001200731
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "cached",
+          "seconds": 0.011369599998943158
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "cached",
+          "seconds": 0.011216299999432522
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "cached",
+          "seconds": 0.011165100000653183
+        }
+      ],
+      "seconds": 0.199
+    },
+    "wall_seconds": 0.2078154999999242,
+    "cpu_seconds": 0.1875
+  },
+  {
+    "report": {
+      "total": 12,
+      "indexed": 0,
+      "cached": 12,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "cached",
+          "seconds": 0.010288399998898967
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "cached",
+          "seconds": 0.010976800000207732
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "cached",
+          "seconds": 0.010102599999299855
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "cached",
+          "seconds": 0.011261999999987893
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "cached",
+          "seconds": 0.0112624000012147
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "cached",
+          "seconds": 0.010945300000457792
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "cached",
+          "seconds": 0.011566699999093544
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "cached",
+          "seconds": 0.010397800000646384
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "cached",
+          "seconds": 0.011927800000194111
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "cached",
+          "seconds": 0.010618300000714953
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "cached",
+          "seconds": 0.010982899999362417
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "cached",
+          "seconds": 0.011392599999453523
+        }
+      ],
+      "seconds": 0.201
+    },
+    "wall_seconds": 0.20957350000026054,
+    "cpu_seconds": 0.171875
+  },
+  {
+    "report": {
+      "total": 12,
+      "indexed": 0,
+      "cached": 12,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "cached",
+          "seconds": 0.011085600001024432
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "cached",
+          "seconds": 0.01217250000081549
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "cached",
+          "seconds": 0.011034299999664654
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "cached",
+          "seconds": 0.011188200000106008
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "cached",
+          "seconds": 0.011500299999170238
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "cached",
+          "seconds": 0.010445100000652019
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "cached",
+          "seconds": 0.011109400000350433
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "cached",
+          "seconds": 0.010717699999077013
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "cached",
+          "seconds": 0.01185280000026978
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "cached",
+          "seconds": 0.011787299999923562
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "cached",
+          "seconds": 0.014623799999753828
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "cached",
+          "seconds": 0.012153300000136369
+        }
+      ],
+      "seconds": 0.21
+    },
+    "wall_seconds": 0.21940429999995104,
+    "cpu_seconds": 0.15625
+  },
+  {
+    "report": {
+      "total": 12,
+      "indexed": 0,
+      "cached": 12,
+      "duplicate": 0,
+      "errors": [],
+      "files": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md",
+          "action": "cached",
+          "seconds": 0.011156599999594619
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt",
+          "action": "cached",
+          "seconds": 0.010571800001343945
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png",
+          "action": "cached",
+          "seconds": 0.010631800001647207
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png",
+          "action": "cached",
+          "seconds": 0.012621699999726843
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+          "action": "cached",
+          "seconds": 0.011214799998924718
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png",
+          "action": "cached",
+          "seconds": 0.01173469999957888
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png",
+          "action": "cached",
+          "seconds": 0.012066900000718306
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png",
+          "action": "cached",
+          "seconds": 0.01203460000033374
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png",
+          "action": "cached",
+          "seconds": 0.012850600000092527
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png",
+          "action": "cached",
+          "seconds": 0.012072999999872991
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav",
+          "action": "cached",
+          "seconds": 0.012462200000300072
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "path": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav",
+          "action": "cached",
+          "seconds": 0.013583399999333778
+        }
+      ],
+      "seconds": 0.219
+    },
+    "wall_seconds": 0.22789759999977832,
+    "cpu_seconds": 0.203125
+  }
+]

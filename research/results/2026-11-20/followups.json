@@ -1,0 +1,802 @@
+{
+  "reason": "The 400px receipt did not activate refinement; one ASR segment exceeded its source WAV duration. These exploratory follow-ups inspect those observations.",
+  "refinement_stress": [
+    {
+      "width": 260,
+      "height": 308,
+      "repetition": 1,
+      "before": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+        "confidence": 0.9975624999999999,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        }
+      },
+      "after": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+        "confidence": 0.9975624999999999,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        }
+      },
+      "ocr_attempts": 0,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.025,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.024933999999120715,
+      "cpu_seconds": 0.109375,
+      "eager_2x": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again",
+        "confidence": 0.9986441666666668,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        },
+        "wall_seconds": 0.6103330000005371,
+        "cpu_seconds": 2.703125
+      }
+    },
+    {
+      "width": 260,
+      "height": 308,
+      "repetition": 2,
+      "before": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+        "confidence": 0.9975624999999999,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        }
+      },
+      "after": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+        "confidence": 0.9975624999999999,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        }
+      },
+      "ocr_attempts": 0,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.025,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.025447199999689474,
+      "cpu_seconds": 0.203125,
+      "eager_2x": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again",
+        "confidence": 0.9986441666666668,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        },
+        "wall_seconds": 0.4650027999996382,
+        "cpu_seconds": 2.28125
+      }
+    },
+    {
+      "width": 260,
+      "height": 308,
+      "repetition": 3,
+      "before": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+        "confidence": 0.9975624999999999,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        }
+      },
+      "after": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+        "confidence": 0.9975624999999999,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        }
+      },
+      "ocr_attempts": 0,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.026,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.026105200000529294,
+      "cpu_seconds": 0.171875,
+      "eager_2x": {
+        "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again",
+        "confidence": 0.9986441666666668,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": true,
+          "JUNIPER": true
+        },
+        "wall_seconds": 0.5275890000011714,
+        "cpu_seconds": 2.40625
+      }
+    },
+    {
+      "width": 160,
+      "height": 189,
+      "repetition": 1,
+      "before": {
+        "text": "JUNIPER CAFE Benprunu Inde INV-2006-1042 Flat white 180 Auocado toast 320 Chocolate cake 190 TOTAL INR 690 Tharlk you Tew yiw ngan",
+        "confidence": 0.93803,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        }
+      },
+      "after": {
+        "text": "JUNIPER CAFE Benprunu Inde INV-2006-1042 Flat white 180 Auocado toast 320 Chocolate cake 190 TOTAL INR 690 Tharlk you Tew yiw ngan",
+        "confidence": 0.93803,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        }
+      },
+      "ocr_attempts": 0,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.037,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.03748780000023544,
+      "cpu_seconds": 0.1875,
+      "eager_2x": {
+        "text": "JUNIPER CAFE Bengalunu hnda INV/-2006-1042 Flat white 180 Avocado toest ace Chocolate cake 190 TOTAL INR 690 Tark yiu Dee yisv again",
+        "confidence": 0.9047575,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        },
+        "wall_seconds": 0.5593227999997907,
+        "cpu_seconds": 2.40625
+      }
+    },
+    {
+      "width": 160,
+      "height": 189,
+      "repetition": 2,
+      "before": {
+        "text": "JUNIPER CAFE Benprunu Inde INV-2006-1042 Flat white 180 Auocado toast 320 Chocolate cake 190 TOTAL INR 690 Tharlk you Tew yiw ngan",
+        "confidence": 0.93803,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        }
+      },
+      "after": {
+        "text": "JUNIPER CAFE Benprunu Inde INV-2006-1042 Flat white 180 Auocado toast 320 Chocolate cake 190 TOTAL INR 690 Tharlk you Tew yiw ngan",
+        "confidence": 0.93803,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        }
+      },
+      "ocr_attempts": 0,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.026,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.02570229999946605,
+      "cpu_seconds": 0.21875,
+      "eager_2x": {
+        "text": "JUNIPER CAFE Bengalunu hnda INV/-2006-1042 Flat white 180 Avocado toest ace Chocolate cake 190 TOTAL INR 690 Tark yiu Dee yisv again",
+        "confidence": 0.9047575,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        },
+        "wall_seconds": 0.5145071000006283,
+        "cpu_seconds": 2.515625
+      }
+    },
+    {
+      "width": 160,
+      "height": 189,
+      "repetition": 3,
+      "before": {
+        "text": "JUNIPER CAFE Benprunu Inde INV-2006-1042 Flat white 180 Auocado toast 320 Chocolate cake 190 TOTAL INR 690 Tharlk you Tew yiw ngan",
+        "confidence": 0.93803,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        }
+      },
+      "after": {
+        "text": "JUNIPER CAFE Benprunu Inde INV-2006-1042 Flat white 180 Auocado toast 320 Chocolate cake 190 TOTAL INR 690 Tharlk you Tew yiw ngan",
+        "confidence": 0.93803,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        }
+      },
+      "ocr_attempts": 0,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.026,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.025869799999782117,
+      "cpu_seconds": 0.203125,
+      "eager_2x": {
+        "text": "JUNIPER CAFE Bengalunu hnda INV/-2006-1042 Flat white 180 Avocado toest ace Chocolate cake 190 TOTAL INR 690 Tark yiu Dee yisv again",
+        "confidence": 0.9047575,
+        "fields": {
+          "690": true,
+          "INV-2026-1042": false,
+          "JUNIPER": true
+        },
+        "wall_seconds": 0.45698709999851417,
+        "cpu_seconds": 2.125
+      }
+    },
+    {
+      "width": 100,
+      "height": 118,
+      "repetition": 1,
+      "before": {
+        "text": "JUNPER CAFE FOLALNR",
+        "confidence": 0.86383,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "after": {
+        "text": "JUNPER CAFE FOLALNR",
+        "confidence": 0.86383,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "ocr_attempts": 1,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.281,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.2810016000003088,
+      "cpu_seconds": 1.6875,
+      "eager_2x": {
+        "text": "JUNPER CAFE FOALN",
+        "confidence": 0.8259350000000001,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        },
+        "wall_seconds": 0.3078568999990239,
+        "cpu_seconds": 1.4375
+      }
+    },
+    {
+      "width": 100,
+      "height": 118,
+      "repetition": 2,
+      "before": {
+        "text": "JUNPER CAFE FOLALNR",
+        "confidence": 0.86383,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "after": {
+        "text": "JUNPER CAFE FOLALNR",
+        "confidence": 0.86383,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "ocr_attempts": 1,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.322,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.3220705000003363,
+      "cpu_seconds": 1.609375,
+      "eager_2x": {
+        "text": "JUNPER CAFE FOALN",
+        "confidence": 0.8259350000000001,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        },
+        "wall_seconds": 0.271213699999862,
+        "cpu_seconds": 1.5625
+      }
+    },
+    {
+      "width": 100,
+      "height": 118,
+      "repetition": 3,
+      "before": {
+        "text": "JUNPER CAFE FOLALNR",
+        "confidence": 0.86383,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "after": {
+        "text": "JUNPER CAFE FOLALNR",
+        "confidence": 0.86383,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "ocr_attempts": 1,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.26,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.2601599999998143,
+      "cpu_seconds": 1.46875,
+      "eager_2x": {
+        "text": "JUNPER CAFE FOALN",
+        "confidence": 0.8259350000000001,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        },
+        "wall_seconds": 0.2384794999998121,
+        "cpu_seconds": 1.296875
+      }
+    },
+    {
+      "width": 64,
+      "height": 76,
+      "repetition": 1,
+      "before": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "after": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "ocr_attempts": 1,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.28,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.2802715999987413,
+      "cpu_seconds": 1.203125,
+      "eager_2x": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        },
+        "wall_seconds": 0.25051499999972293,
+        "cpu_seconds": 1.0
+      }
+    },
+    {
+      "width": 64,
+      "height": 76,
+      "repetition": 2,
+      "before": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "after": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "ocr_attempts": 1,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.25,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.24970700000085344,
+      "cpu_seconds": 1.15625,
+      "eager_2x": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        },
+        "wall_seconds": 0.21752329999981157,
+        "cpu_seconds": 0.859375
+      }
+    },
+    {
+      "width": 64,
+      "height": 76,
+      "repetition": 3,
+      "before": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "after": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        }
+      },
+      "ocr_attempts": 1,
+      "accepted": false,
+      "refinement": {
+        "completed": [],
+        "budget_seconds": 5,
+        "elapsed_seconds": 0.24,
+        "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+      },
+      "wall_seconds": 0.23981129999992845,
+      "cpu_seconds": 0.96875,
+      "eager_2x": {
+        "text": "",
+        "confidence": null,
+        "fields": {
+          "690": false,
+          "INV-2026-1042": false,
+          "JUNIPER": false
+        },
+        "wall_seconds": 0.21663940000144066,
+        "cpu_seconds": 0.84375
+      }
+    }
+  ],
+  "audio_bounds": [
+    {
+      "file": "memo_001.wav",
+      "wav_duration_seconds": 13.600680272108843,
+      "max_segment_end": 12.86,
+      "out_of_bounds_segments": [],
+      "canonicalized_wer": 0.03225806451612903,
+      "numeric_normalization": "Lowercase, strip punctuation, map English 'three' to digit '3'; name errors remain errors."
+    },
+    {
+      "file": "memo_002.wav",
+      "wav_duration_seconds": 12.265804988662131,
+      "max_segment_end": 17.6,
+      "out_of_bounds_segments": [
+        {
+          "text": "Bring the new screenshots and the search prototype.",
+          "start": 8.08,
+          "end": 17.6,
+          "confidence": 0.7879273784572888
+        }
+      ],
+      "canonicalized_wer": 0.0,
+      "numeric_normalization": "Lowercase, strip punctuation, map English 'three' to digit '3'; name errors remain errors."
+    }
+  ],
+  "text_score_maxima": [
+    {
+      "id": "visual-white-shoe",
+      "answerable": true,
+      "max_text_cosine": 0.7873449921607971
+    },
+    {
+      "id": "relative-date",
+      "answerable": true,
+      "max_text_cosine": 0.8079874515533447
+    },
+    {
+      "id": "changed-price",
+      "answerable": true,
+      "max_text_cosine": 0.5643504858016968
+    },
+    {
+      "id": "exact-receipt-number",
+      "answerable": true,
+      "max_text_cosine": 0.6287495493888855
+    },
+    {
+      "id": "cafe-receipt",
+      "answerable": true,
+      "max_text_cosine": 0.7844889163970947
+    },
+    {
+      "id": "developer-error",
+      "answerable": true,
+      "max_text_cosine": 0.8719822764396667
+    },
+    {
+      "id": "semantic-note",
+      "answerable": true,
+      "max_text_cosine": 0.784210741519928
+    },
+    {
+      "id": "meeting-owner",
+      "answerable": true,
+      "max_text_cosine": 0.6685917973518372
+    },
+    {
+      "id": "voice-cafe",
+      "answerable": true,
+      "max_text_cosine": 0.7893346548080444
+    },
+    {
+      "id": "voice-meeting",
+      "answerable": true,
+      "max_text_cosine": 0.7667616605758667
+    },
+    {
+      "id": "no-answer",
+      "answerable": false,
+      "max_text_cosine": 0.4963565766811371
+    },
+    {
+      "id": "shoe-original-price",
+      "answerable": true,
+      "max_text_cosine": 0.5535529255867004
+    },
+    {
+      "id": "shoe-green-price",
+      "answerable": true,
+      "max_text_cosine": 0.5702263116836548
+    },
+    {
+      "id": "shoe-green-visual",
+      "answerable": true,
+      "max_text_cosine": 0.7100604772567749
+    },
+    {
+      "id": "shoe-white-visual",
+      "answerable": true,
+      "max_text_cosine": 0.6493865251541138
+    },
+    {
+      "id": "receipt-book-id",
+      "answerable": true,
+      "max_text_cosine": 0.6935774087905884
+    },
+    {
+      "id": "receipt-cafe-total",
+      "answerable": true,
+      "max_text_cosine": 0.5127562284469604
+    },
+    {
+      "id": "receipt-book-total",
+      "answerable": true,
+      "max_text_cosine": 0.6020442843437195
+    },
+    {
+      "id": "receipt-toast",
+      "answerable": true,
+      "max_text_cosine": 0.6933500170707703
+    },
+    {
+      "id": "receipt-book-title",
+      "answerable": true,
+      "max_text_cosine": 0.6726741790771484
+    },
+    {
+      "id": "error-port",
+      "answerable": true,
+      "max_text_cosine": 0.5388374924659729
+    },
+    {
+      "id": "error-remedy",
+      "answerable": true,
+      "max_text_cosine": 0.662118673324585
+    },
+    {
+      "id": "travel-palace",
+      "answerable": true,
+      "max_text_cosine": 0.7752871513366699
+    },
+    {
+      "id": "travel-fort",
+      "answerable": true,
+      "max_text_cosine": 0.6799390316009521
+    },
+    {
+      "id": "camping-light",
+      "answerable": true,
+      "max_text_cosine": 0.6070376038551331
+    },
+    {
+      "id": "camping-weather",
+      "answerable": true,
+      "max_text_cosine": 0.7352829575538635
+    },
+    {
+      "id": "camping-stove",
+      "answerable": true,
+      "max_text_cosine": 0.696878969669342
+    },
+    {
+      "id": "note-migration",
+      "answerable": true,
+      "max_text_cosine": 0.6777709722518921
+    },
+    {
+      "id": "note-deliverable",
+      "answerable": true,
+      "max_text_cosine": 0.6671596169471741
+    },
+    {
+      "id": "voice-cafe-food",
+      "answerable": true,
+      "max_text_cosine": 0.7772279381752014
+    },
+    {
+      "id": "voice-meeting-bring",
+      "answerable": true,
+      "max_text_cosine": 0.7321276664733887
+    },
+    {
+      "id": "absent-insurance",
+      "answerable": false,
+      "max_text_cosine": 0.4844115674495697
+    },
+    {
+      "id": "absent-approval",
+      "answerable": false,
+      "max_text_cosine": 0.5900384783744812
+    },
+    {
+      "id": "absent-stove-serial",
+      "answerable": false,
+      "max_text_cosine": 0.6409142017364502
+    },
+    {
+      "id": "absent-wifi",
+      "answerable": false,
+      "max_text_cosine": 0.5239419341087341
+    },
+    {
+      "id": "absent-cafe-phone",
+      "answerable": false,
+      "max_text_cosine": 0.7229049205780029
+    },
+    {
+      "id": "absent-dial-in",
+      "answerable": false,
+      "max_text_cosine": 0.613074541091919
+    },
+    {
+      "id": "absent-hotel",
+      "answerable": false,
+      "max_text_cosine": 0.6249396800994873
+    },
+    {
+      "id": "absent-shoe-size",
+      "answerable": false,
+      "max_text_cosine": 0.7540684938430786
+    },
+    {
+      "id": "absent-refund",
+      "answerable": false,
+      "max_text_cosine": 0.6324833035469055
+    },
+    {
+      "id": "absent-book-isbn",
+      "answerable": false,
+      "max_text_cosine": 0.6796974539756775
+    },
+    {
+      "id": "absent-mri",
+      "answerable": false,
+      "max_text_cosine": 0.5293065905570984
+    }
+  ],
+  "text_threshold_sweep": [
+    {
+      "threshold": 0.25,
+      "positive_candidate_retention": 1.0,
+      "negative_rejection": 0.0
+    },
+    {
+      "threshold": 0.35,
+      "positive_candidate_retention": 1.0,
+      "negative_rejection": 0.0
+    },
+    {
+      "threshold": 0.45,
+      "positive_candidate_retention": 1.0,
+      "negative_rejection": 0.0
+    },
+    {
+      "threshold": 0.55,
+      "positive_candidate_retention": 0.9333333333333333,
+      "negative_rejection": 0.3333333333333333
+    },
+    {
+      "threshold": 0.65,
+      "positive_candidate_retention": 0.7,
+      "negative_rejection": 0.75
+    },
+    {
+      "threshold": 0.75,
+      "positive_candidate_retention": 0.3,
+      "negative_rejection": 0.9166666666666666
+    }
+  ]
+}

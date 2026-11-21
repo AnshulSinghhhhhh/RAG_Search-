@@ -1,0 +1,22 @@
+{
+  "text_model_first_inference": {
+    "wall_seconds": 1.4084706000012375,
+    "cpu_seconds": 1.53125
+  },
+  "clip_image_first_inference": {
+    "wall_seconds": 0.7513369999996939,
+    "cpu_seconds": 1.15625
+  },
+  "clip_text_first_inference": {
+    "wall_seconds": 0.8168917999992118,
+    "cpu_seconds": 1.0
+  },
+  "ocr_first_inference": {
+    "wall_seconds": 2.0047469999990426,
+    "cpu_seconds": 4.796875
+  },
+  "asr_first_inference": {
+    "wall_seconds": 9.333625100000063,
+    "cpu_seconds": 14.890625
+  }
+}

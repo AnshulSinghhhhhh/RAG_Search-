@@ -1,0 +1,10 @@
+{
+  "pdf_pages": 15,
+  "all_pages_visually_reviewed": true,
+  "render_dpi": 110,
+  "render_engine": "Poppler pdftoppm",
+  "text_within_page_bounds": true,
+  "known_results_present": true,
+  "pdf_links": 5,
+  "note": "All 15 page PNGs inspected. No clipped text, broken tables, overlapping content or missing glyphs observed."
+}

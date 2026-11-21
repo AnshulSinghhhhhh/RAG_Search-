@@ -1,0 +1,209 @@
+{
+  "fields": [
+    {
+      "file": "capture_003.png",
+      "kind": "image",
+      "expected": "3499",
+      "present": true,
+      "actual_text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER"
+    },
+    {
+      "file": "receipt_002.png",
+      "kind": "image",
+      "expected": "640",
+      "present": true,
+      "actual_text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again."
+    },
+    {
+      "file": "receipt_002.png",
+      "kind": "image",
+      "expected": "BOOK-7718",
+      "present": true,
+      "actual_text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again."
+    },
+    {
+      "file": "capture_004.png",
+      "kind": "image",
+      "expected": "ECONNREFUSED",
+      "present": true,
+      "actual_text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain"
+    },
+    {
+      "file": "capture_004.png",
+      "kind": "image",
+      "expected": "5432",
+      "present": true,
+      "actual_text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain"
+    },
+    {
+      "file": "capture_002.png",
+      "kind": "image",
+      "expected": "2499",
+      "present": true,
+      "actual_text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR"
+    },
+    {
+      "file": "capture_005.png",
+      "kind": "image",
+      "expected": "Hawa Mahal",
+      "present": true,
+      "actual_text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes"
+    },
+    {
+      "file": "capture_005.png",
+      "kind": "image",
+      "expected": "Amber Fort",
+      "present": true,
+      "actual_text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes"
+    },
+    {
+      "file": "memo_001.wav",
+      "kind": "audio",
+      "expected": "Juniper",
+      "present": false,
+      "actual_text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday."
+    },
+    {
+      "file": "memo_001.wav",
+      "kind": "audio",
+      "expected": "old library",
+      "present": true,
+      "actual_text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday."
+    },
+    {
+      "file": "memo_002.wav",
+      "kind": "audio",
+      "expected": "Priya",
+      "present": true,
+      "actual_text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype."
+    },
+    {
+      "file": "memo_002.wav",
+      "kind": "audio",
+      "expected": "Friday",
+      "present": true,
+      "actual_text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype."
+    },
+    {
+      "file": "memo_002.wav",
+      "kind": "audio",
+      "expected": "three",
+      "present": false,
+      "actual_text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype."
+    },
+    {
+      "file": "capture_001.png",
+      "kind": "image",
+      "expected": "2999",
+      "present": true,
+      "actual_text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER"
+    },
+    {
+      "file": "receipt_001.png",
+      "kind": "image",
+      "expected": "690",
+      "present": true,
+      "actual_text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again."
+    },
+    {
+      "file": "receipt_001.png",
+      "kind": "image",
+      "expected": "INV-2026-1042",
+      "present": true,
+      "actual_text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again."
+    },
+    {
+      "file": "receipt_001.png",
+      "kind": "image",
+      "expected": "JUNIPER",
+      "present": true,
+      "actual_text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again."
+    }
+  ],
+  "audio": [
+    {
+      "file": "memo_001.wav",
+      "reference": "A note for later. The cafe we liked was called Juniper Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+      "transcript": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+      "reference_words": 31,
+      "edit_distance": 1,
+      "wer": 0.03225806451612903,
+      "metadata": {
+        "duration": 13.6006875,
+        "speech_seconds": 13.6006875,
+        "language": "en",
+        "segments": [
+          {
+            "text": "A note for later.",
+            "start": 0.0,
+            "end": 2.3,
+            "confidence": 0.7799496831843628
+          },
+          {
+            "text": "The cafe we liked was called Jennifer Cafe.",
+            "start": 2.3,
+            "end": 5.86,
+            "confidence": 0.7799496831843628
+          },
+          {
+            "text": "It is near the old library.",
+            "start": 5.86,
+            "end": 8.42,
+            "confidence": 0.7799496831843628
+          },
+          {
+            "text": "We should go back for their flat white and avocado toast next Saturday.",
+            "start": 8.42,
+            "end": 12.86,
+            "confidence": 0.7799496831843628
+          }
+        ],
+        "processing_seconds": 1.972363700000642
+      },
+      "chunks": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960:0",
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86
+        }
+      ]
+    },
+    {
+      "file": "memo_002.wav",
+      "reference": "Remember the project meeting. Priya is handling the design review on Friday at three in the afternoon. Bring the new screenshots and the search prototype.",
+      "transcript": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+      "reference_words": 25,
+      "edit_distance": 1,
+      "wer": 0.04,
+      "metadata": {
+        "duration": 12.2658125,
+        "speech_seconds": 12.2658125,
+        "language": "en",
+        "segments": [
+          {
+            "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon.",
+            "start": 0.0,
+            "end": 7.12,
+            "confidence": 0.7879273784572888
+          },
+          {
+            "text": "Bring the new screenshots and the search prototype.",
+            "start": 8.08,
+            "end": 17.6,
+            "confidence": 0.7879273784572888
+          }
+        ],
+        "processing_seconds": 1.8938780000007682
+      },
+      "chunks": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23:0",
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6
+        }
+      ]
+    }
+  ]
+}

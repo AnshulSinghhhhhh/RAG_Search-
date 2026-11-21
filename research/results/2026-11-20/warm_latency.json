@@ -1,0 +1,352 @@
+[
+  {
+    "mode": "hybrid",
+    "id": "visual-white-shoe",
+    "repetition": 1,
+    "wall_seconds": 0.04923359999884269,
+    "cpu_seconds": 0.28125
+  },
+  {
+    "mode": "hybrid",
+    "id": "changed-price",
+    "repetition": 1,
+    "wall_seconds": 0.06472810000013851,
+    "cpu_seconds": 0.40625
+  },
+  {
+    "mode": "hybrid",
+    "id": "semantic-note",
+    "repetition": 1,
+    "wall_seconds": 0.02717049999955634,
+    "cpu_seconds": 0.203125
+  },
+  {
+    "mode": "hybrid",
+    "id": "voice-cafe",
+    "repetition": 1,
+    "wall_seconds": 0.03023589999975229,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "mode": "hybrid",
+    "id": "no-answer",
+    "repetition": 1,
+    "wall_seconds": 0.022192099999301718,
+    "cpu_seconds": 0.125
+  },
+  {
+    "mode": "lexical",
+    "id": "visual-white-shoe",
+    "repetition": 1,
+    "wall_seconds": 0.017150499999843305,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "lexical",
+    "id": "changed-price",
+    "repetition": 1,
+    "wall_seconds": 0.008456499999738298,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "lexical",
+    "id": "semantic-note",
+    "repetition": 1,
+    "wall_seconds": 0.009197900000799564,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "lexical",
+    "id": "voice-cafe",
+    "repetition": 1,
+    "wall_seconds": 0.012566200000946992,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "no-answer",
+    "repetition": 1,
+    "wall_seconds": 0.004824600000574719,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "lexical",
+    "id": "visual-white-shoe",
+    "repetition": 2,
+    "wall_seconds": 0.016052200000558514,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "changed-price",
+    "repetition": 2,
+    "wall_seconds": 0.008853100000123959,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "lexical",
+    "id": "semantic-note",
+    "repetition": 2,
+    "wall_seconds": 0.00897120000081486,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "voice-cafe",
+    "repetition": 2,
+    "wall_seconds": 0.013480099998560036,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "no-answer",
+    "repetition": 2,
+    "wall_seconds": 0.004312200000640587,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "hybrid",
+    "id": "visual-white-shoe",
+    "repetition": 2,
+    "wall_seconds": 0.050832400000217604,
+    "cpu_seconds": 0.265625
+  },
+  {
+    "mode": "hybrid",
+    "id": "changed-price",
+    "repetition": 2,
+    "wall_seconds": 0.05360649999965972,
+    "cpu_seconds": 0.421875
+  },
+  {
+    "mode": "hybrid",
+    "id": "semantic-note",
+    "repetition": 2,
+    "wall_seconds": 0.02497109999967506,
+    "cpu_seconds": 0.078125
+  },
+  {
+    "mode": "hybrid",
+    "id": "voice-cafe",
+    "repetition": 2,
+    "wall_seconds": 0.022964100000535836,
+    "cpu_seconds": 0.1875
+  },
+  {
+    "mode": "hybrid",
+    "id": "no-answer",
+    "repetition": 2,
+    "wall_seconds": 0.02286860000094748,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "hybrid",
+    "id": "visual-white-shoe",
+    "repetition": 3,
+    "wall_seconds": 0.04183060000104888,
+    "cpu_seconds": 0.25
+  },
+  {
+    "mode": "hybrid",
+    "id": "changed-price",
+    "repetition": 3,
+    "wall_seconds": 0.054011300000638585,
+    "cpu_seconds": 0.34375
+  },
+  {
+    "mode": "hybrid",
+    "id": "semantic-note",
+    "repetition": 3,
+    "wall_seconds": 0.029336999999941327,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "mode": "hybrid",
+    "id": "voice-cafe",
+    "repetition": 3,
+    "wall_seconds": 0.023969199999555713,
+    "cpu_seconds": 0.140625
+  },
+  {
+    "mode": "hybrid",
+    "id": "no-answer",
+    "repetition": 3,
+    "wall_seconds": 0.022200400000656373,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "lexical",
+    "id": "visual-white-shoe",
+    "repetition": 3,
+    "wall_seconds": 0.01711539999996603,
+    "cpu_seconds": 0.078125
+  },
+  {
+    "mode": "lexical",
+    "id": "changed-price",
+    "repetition": 3,
+    "wall_seconds": 0.009138999999777297,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "mode": "lexical",
+    "id": "semantic-note",
+    "repetition": 3,
+    "wall_seconds": 0.010274400001435424,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "lexical",
+    "id": "voice-cafe",
+    "repetition": 3,
+    "wall_seconds": 0.017919199999596458,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "no-answer",
+    "repetition": 3,
+    "wall_seconds": 0.00568810000004305,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "lexical",
+    "id": "visual-white-shoe",
+    "repetition": 4,
+    "wall_seconds": 0.018916699998953845,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "changed-price",
+    "repetition": 4,
+    "wall_seconds": 0.013259999999718275,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "semantic-note",
+    "repetition": 4,
+    "wall_seconds": 0.010297099999661441,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "voice-cafe",
+    "repetition": 4,
+    "wall_seconds": 0.01690280000002531,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "mode": "lexical",
+    "id": "no-answer",
+    "repetition": 4,
+    "wall_seconds": 0.00495020000016666,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "hybrid",
+    "id": "visual-white-shoe",
+    "repetition": 4,
+    "wall_seconds": 0.050420800000210875,
+    "cpu_seconds": 0.3125
+  },
+  {
+    "mode": "hybrid",
+    "id": "changed-price",
+    "repetition": 4,
+    "wall_seconds": 0.05739809999977297,
+    "cpu_seconds": 0.296875
+  },
+  {
+    "mode": "hybrid",
+    "id": "semantic-note",
+    "repetition": 4,
+    "wall_seconds": 0.022596099999645958,
+    "cpu_seconds": 0.171875
+  },
+  {
+    "mode": "hybrid",
+    "id": "voice-cafe",
+    "repetition": 4,
+    "wall_seconds": 0.021772300000520772,
+    "cpu_seconds": 0.078125
+  },
+  {
+    "mode": "hybrid",
+    "id": "no-answer",
+    "repetition": 4,
+    "wall_seconds": 0.022347000000081607,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "mode": "hybrid",
+    "id": "visual-white-shoe",
+    "repetition": 5,
+    "wall_seconds": 0.047333399999843095,
+    "cpu_seconds": 0.328125
+  },
+  {
+    "mode": "hybrid",
+    "id": "changed-price",
+    "repetition": 5,
+    "wall_seconds": 0.047253699998691445,
+    "cpu_seconds": 0.328125
+  },
+  {
+    "mode": "hybrid",
+    "id": "semantic-note",
+    "repetition": 5,
+    "wall_seconds": 0.020818000000872416,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "mode": "hybrid",
+    "id": "voice-cafe",
+    "repetition": 5,
+    "wall_seconds": 0.02264590000049793,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "mode": "hybrid",
+    "id": "no-answer",
+    "repetition": 5,
+    "wall_seconds": 0.022591599999941536,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "mode": "lexical",
+    "id": "visual-white-shoe",
+    "repetition": 5,
+    "wall_seconds": 0.015091499999471125,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "lexical",
+    "id": "changed-price",
+    "repetition": 5,
+    "wall_seconds": 0.009618000000045868,
+    "cpu_seconds": 0.0
+  },
+  {
+    "mode": "lexical",
+    "id": "semantic-note",
+    "repetition": 5,
+    "wall_seconds": 0.007683200001338264,
+    "cpu_seconds": 0.0625
+  },
+  {
+    "mode": "lexical",
+    "id": "voice-cafe",
+    "repetition": 5,
+    "wall_seconds": 0.013077999999950407,
+    "cpu_seconds": 0.046875
+  },
+  {
+    "mode": "lexical",
+    "id": "no-answer",
+    "repetition": 5,
+    "wall_seconds": 0.004384700001537567,
+    "cpu_seconds": 0.0
+  }
+]

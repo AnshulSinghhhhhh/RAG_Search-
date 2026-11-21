@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-20",
+  "synthetic_only": true,
+  "models": {
+    "text": "BAAI/bge-small-en-v1.5",
+    "image": "Qdrant/clip-ViT-B-32-vision",
+    "image_query": "Qdrant/clip-ViT-B-32-text",
+    "audio": "faster-whisper base, CPU int8"
+  },
+  "real_ingestion": {
+    "files": 12,
+    "unique_assets": 11,
+    "duplicate_locations_reused": 1,
+    "errors": 0,
+    "changed_price_ocr_area_fraction": 0.01604,
+    "changed_price_unchanged_lines_reused": 5,
+    "int8_vector_payload_bytes": 7808,
+    "equivalent_float32_vector_payload_bytes": 31232
+  },
+  "retrieval": {
+    "answerable_scenarios": 10,
+    "expected_file_found_at_5": 10,
+    "no_answer_scenarios": 1,
+    "correctly_abstained": 0
+  },
+  "limitations": [
+    "These are tiny synthetic smoke scenarios, not a representative accuracy study.",
+    "Whisper base misheard Juniper Cafe as Jennifer Cafe in memo_001.wav; this was not manually corrected.",
+    "The unrelated query still returned weak candidates. Similarity is not calibrated confidence.",
+    "Vector payload savings exclude models, metadata, thumbnails, and original media."
+  ]
+}

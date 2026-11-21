@@ -1,0 +1,9 @@
+{
+  "command": ".venv\\Scripts\\python.exe -m pytest -q",
+  "working_directory": "C:\\Users\\anshu\\Desktop\\tabahai\\RAG",
+  "observed_date": "2026-11-20",
+  "exit_code": 0,
+  "stdout": ".......................                                                  [100%]\n23 passed in 1.92s\n",
+  "provenance": "Recorded from the actual command output during this research session before the research harness was added.",
+  "scope": "Unit and API integration tests use deterministic embedding doubles; this does not measure pretrained model accuracy."
+}

@@ -1,0 +1,6615 @@
+{
+  "validated_hybrid_queries": 42,
+  "modes": {
+    "keyword": {
+      "answerable_n": 30,
+      "no_answer_n": 12,
+      "hit_at_1": 0.9,
+      "hit_at_5": 0.9333333333333333,
+      "mrr_at_5": 0.9111111111111112,
+      "abstention_rate": 0.16666666666666666,
+      "latency_seconds": {
+        "n": 42,
+        "median": 0.0,
+        "p95": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "text": {
+      "answerable_n": 30,
+      "no_answer_n": 12,
+      "hit_at_1": 0.8333333333333334,
+      "hit_at_5": 1.0,
+      "mrr_at_5": 0.9083333333333333,
+      "abstention_rate": 0.0,
+      "latency_seconds": {
+        "n": 42,
+        "median": 0.0,
+        "p95": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "visual": {
+      "answerable_n": 30,
+      "no_answer_n": 12,
+      "hit_at_1": 0.5,
+      "hit_at_5": 0.6,
+      "mrr_at_5": 0.5216666666666666,
+      "abstention_rate": 0.5833333333333334,
+      "latency_seconds": {
+        "n": 42,
+        "median": 0.0,
+        "p95": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "keyword_text": {
+      "answerable_n": 30,
+      "no_answer_n": 12,
+      "hit_at_1": 0.9,
+      "hit_at_5": 1.0,
+      "mrr_at_5": 0.9444444444444445,
+      "abstention_rate": 0.0,
+      "latency_seconds": {
+        "n": 42,
+        "median": 0.0,
+        "p95": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "hybrid": {
+      "answerable_n": 30,
+      "no_answer_n": 12,
+      "hit_at_1": 0.9,
+      "hit_at_5": 1.0,
+      "mrr_at_5": 0.95,
+      "abstention_rate": 0.0,
+      "latency_seconds": {
+        "n": 42,
+        "median": 0.0,
+        "p95": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "per_query": {
+    "keyword": [
+      {
+        "id": "visual-white-shoe",
+        "query": "white sneakers",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "relative-date",
+        "query": "white sneaker last month",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "changed-price",
+        "query": "2499",
+        "kind": "image",
+        "expected_files": [
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "exact-receipt-number",
+        "query": "INV-2026-1042",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "cafe-receipt",
+        "query": "Juniper cafe flat white",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_001.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "developer-error",
+        "query": "ECONNREFUSED PostgreSQL connection failed",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png"
+        ]
+      },
+      {
+        "id": "semantic-note",
+        "query": "equipment to take camping",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "meeting-owner",
+        "query": "Who is responsible for the design review?",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe",
+        "query": "cafe near the old library",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting",
+        "query": "Friday design meeting",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "no-answer",
+        "query": "my passport number on a submarine",
+        "kind": "text",
+        "expected_files": [],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "shoe-original-price",
+        "query": "2999",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "shoe-green-price",
+        "query": "3499",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-green-visual",
+        "query": "olive colored footwear",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.3333333333333333,
+        "first_relevant_rank": 3,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-white-visual",
+        "query": "a pale cream low top shoe",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-book-id",
+        "query": "BOOK-7718",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "receipt-cafe-total",
+        "query": "690",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "receipt-book-total",
+        "query": "640",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "receipt-toast",
+        "query": "avocado toast and chocolate cake receipt",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png"
+        ]
+      },
+      {
+        "id": "receipt-book-title",
+        "query": "Design of Everyday",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "error-port",
+        "query": "5432",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png"
+        ]
+      },
+      {
+        "id": "error-remedy",
+        "query": "database service needs to be started",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png"
+        ]
+      },
+      {
+        "id": "travel-palace",
+        "query": "Hawa Mahal Saturday",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "travel-fort",
+        "query": "Amber Fort Sunday 10 AM",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "camping-light",
+        "query": "portable illumination for sleeping outdoors",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "camping-weather",
+        "query": "what should I pack to stay dry in the rain",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "camping-stove",
+        "query": "where is the camping stove stored",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "note-migration",
+        "query": "who will prepare the database migration",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "note-deliverable",
+        "query": "what should be shipped before the review",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe-food",
+        "query": "flat white and avocado toast next Saturday",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting-bring",
+        "query": "bring the new screenshots and search prototype",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-insurance",
+        "query": "my insurance policy identifier",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-approval",
+        "query": "who approved the production deployment",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-stove-serial",
+        "query": "camping stove serial number",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-wifi",
+        "query": "Juniper cafe wifi password",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-cafe-phone",
+        "query": "phone number of the cafe near the old library",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-dial-in",
+        "query": "Monday meeting dial in code",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-hotel",
+        "query": "Jaipur hotel reservation confirmation number",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "absent-shoe-size",
+        "query": "white sneaker available size 14",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "absent-refund",
+        "query": "Juniper cafe refund transaction identifier",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "absent-book-isbn",
+        "query": "ISBN barcode for Design of Everyday",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "absent-mri",
+        "query": "my MRI diagnosis and hospital discharge summary",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "capture_004.png",
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      }
+    ],
+    "text": [
+      {
+        "id": "visual-white-shoe",
+        "query": "white sneakers",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "receipt_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "relative-date",
+        "query": "white sneaker last month",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "changed-price",
+        "query": "2499",
+        "kind": "image",
+        "expected_files": [
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "capture_005.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "exact-receipt-number",
+        "query": "INV-2026-1042",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "cafe-receipt",
+        "query": "Juniper cafe flat white",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "developer-error",
+        "query": "ECONNREFUSED PostgreSQL connection failed",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "note_001.md",
+          "memo_002.wav",
+          "receipt_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "semantic-note",
+        "query": "equipment to take camping",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "meeting-owner",
+        "query": "Who is responsible for the design review?",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe",
+        "query": "cafe near the old library",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting",
+        "query": "Friday design meeting",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "no-answer",
+        "query": "my passport number on a submarine",
+        "kind": "text",
+        "expected_files": [],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "shoe-original-price",
+        "query": "2999",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_005.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-green-price",
+        "query": "3499",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_003.png",
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "shoe-green-visual",
+        "query": "olive colored footwear",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_003.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "shoe-white-visual",
+        "query": "a pale cream low top shoe",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_003.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-book-id",
+        "query": "BOOK-7718",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-cafe-total",
+        "query": "690",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-book-total",
+        "query": "640",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "receipt-toast",
+        "query": "avocado toast and chocolate cake receipt",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_003.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "receipt-book-title",
+        "query": "Design of Everyday",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "error-port",
+        "query": "5432",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.25,
+        "first_relevant_rank": 4,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_004.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "error-remedy",
+        "query": "database service needs to be started",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "travel-palace",
+        "query": "Hawa Mahal Saturday",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "travel-fort",
+        "query": "Amber Fort Sunday 10 AM",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "camping-light",
+        "query": "portable illumination for sleeping outdoors",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "camping-weather",
+        "query": "what should I pack to stay dry in the rain",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "camping-stove",
+        "query": "where is the camping stove stored",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "note-migration",
+        "query": "who will prepare the database migration",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "note-deliverable",
+        "query": "what should be shipped before the review",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe-food",
+        "query": "flat white and avocado toast next Saturday",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting-bring",
+        "query": "bring the new screenshots and search prototype",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-insurance",
+        "query": "my insurance policy identifier",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-approval",
+        "query": "who approved the production deployment",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-stove-serial",
+        "query": "camping stove serial number",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "absent-wifi",
+        "query": "Juniper cafe wifi password",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-cafe-phone",
+        "query": "phone number of the cafe near the old library",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-dial-in",
+        "query": "Monday meeting dial in code",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-hotel",
+        "query": "Jaipur hotel reservation confirmation number",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "absent-shoe-size",
+        "query": "white sneaker available size 14",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "absent-refund",
+        "query": "Juniper cafe refund transaction identifier",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png",
+          "capture_003.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "absent-book-isbn",
+        "query": "ISBN barcode for Design of Everyday",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "absent-mri",
+        "query": "my MRI diagnosis and hospital discharge summary",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "memo_002.wav",
+          "memo_001.wav",
+          "receipt_002.png",
+          "note_002.txt"
+        ]
+      }
+    ],
+    "visual": [
+      {
+        "id": "visual-white-shoe",
+        "query": "white sneakers",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "relative-date",
+        "query": "white sneaker last month",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "changed-price",
+        "query": "2499",
+        "kind": "image",
+        "expected_files": [
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "exact-receipt-number",
+        "query": "INV-2026-1042",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_003.png",
+          "capture_001.png",
+          "capture_004.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "cafe-receipt",
+        "query": "Juniper cafe flat white",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_005.png",
+          "capture_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "developer-error",
+        "query": "ECONNREFUSED PostgreSQL connection failed",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "receipt_001.png",
+          "capture_003.png",
+          "capture_002.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "semantic-note",
+        "query": "equipment to take camping",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "meeting-owner",
+        "query": "Who is responsible for the design review?",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "voice-cafe",
+        "query": "cafe near the old library",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "voice-meeting",
+        "query": "Friday design meeting",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "no-answer",
+        "query": "my passport number on a submarine",
+        "kind": "text",
+        "expected_files": [],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "shoe-original-price",
+        "query": "2999",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-green-price",
+        "query": "3499",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.2,
+        "first_relevant_rank": 5,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-green-visual",
+        "query": "olive colored footwear",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_003.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_005.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "shoe-white-visual",
+        "query": "a pale cream low top shoe",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-book-id",
+        "query": "BOOK-7718",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "receipt-cafe-total",
+        "query": "690",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.25,
+        "first_relevant_rank": 4,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "receipt-book-total",
+        "query": "640",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "receipt-toast",
+        "query": "avocado toast and chocolate cake receipt",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_003.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "receipt-book-title",
+        "query": "Design of Everyday",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "error-port",
+        "query": "5432",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.2,
+        "first_relevant_rank": 5,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_004.png"
+        ]
+      },
+      {
+        "id": "error-remedy",
+        "query": "database service needs to be started",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_005.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "travel-palace",
+        "query": "Hawa Mahal Saturday",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "travel-fort",
+        "query": "Amber Fort Sunday 10 AM",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_004.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "camping-light",
+        "query": "portable illumination for sleeping outdoors",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "camping-weather",
+        "query": "what should I pack to stay dry in the rain",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "camping-stove",
+        "query": "where is the camping stove stored",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "note-migration",
+        "query": "who will prepare the database migration",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "note-deliverable",
+        "query": "what should be shipped before the review",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "voice-cafe-food",
+        "query": "flat white and avocado toast next Saturday",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "voice-meeting-bring",
+        "query": "bring the new screenshots and search prototype",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-insurance",
+        "query": "my insurance policy identifier",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-approval",
+        "query": "who approved the production deployment",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-stove-serial",
+        "query": "camping stove serial number",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-wifi",
+        "query": "Juniper cafe wifi password",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-cafe-phone",
+        "query": "phone number of the cafe near the old library",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-dial-in",
+        "query": "Monday meeting dial in code",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": true,
+        "wall_seconds": 0,
+        "retrieved_names": []
+      },
+      {
+        "id": "absent-hotel",
+        "query": "Jaipur hotel reservation confirmation number",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_005.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "absent-shoe-size",
+        "query": "white sneaker available size 14",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "absent-refund",
+        "query": "Juniper cafe refund transaction identifier",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png",
+          "capture_005.png",
+          "receipt_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "absent-book-isbn",
+        "query": "ISBN barcode for Design of Everyday",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "absent-mri",
+        "query": "my MRI diagnosis and hospital discharge summary",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "receipt_001.png",
+          "capture_005.png",
+          "receipt_002.png",
+          "capture_002.png"
+        ]
+      }
+    ],
+    "keyword_text": [
+      {
+        "id": "visual-white-shoe",
+        "query": "white sneakers",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "relative-date",
+        "query": "white sneaker last month",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "changed-price",
+        "query": "2499",
+        "kind": "image",
+        "expected_files": [
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_005.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "exact-receipt-number",
+        "query": "INV-2026-1042",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "cafe-receipt",
+        "query": "Juniper cafe flat white",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "developer-error",
+        "query": "ECONNREFUSED PostgreSQL connection failed",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "note_001.md",
+          "memo_002.wav",
+          "receipt_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "semantic-note",
+        "query": "equipment to take camping",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "meeting-owner",
+        "query": "Who is responsible for the design review?",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe",
+        "query": "cafe near the old library",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting",
+        "query": "Friday design meeting",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "no-answer",
+        "query": "my passport number on a submarine",
+        "kind": "text",
+        "expected_files": [],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "shoe-original-price",
+        "query": "2999",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_005.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-green-price",
+        "query": "3499",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_003.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "shoe-green-visual",
+        "query": "olive colored footwear",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.3333333333333333,
+        "first_relevant_rank": 3,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "receipt_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "shoe-white-visual",
+        "query": "a pale cream low top shoe",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "capture_001.png",
+          "capture_003.png",
+          "capture_002.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "receipt-book-id",
+        "query": "BOOK-7718",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-cafe-total",
+        "query": "690",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "receipt-book-total",
+        "query": "640",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "receipt-toast",
+        "query": "avocado toast and chocolate cake receipt",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png",
+          "capture_003.png",
+          "receipt_002.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "receipt-book-title",
+        "query": "Design of Everyday",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "error-port",
+        "query": "5432",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "error-remedy",
+        "query": "database service needs to be started",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "travel-palace",
+        "query": "Hawa Mahal Saturday",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "travel-fort",
+        "query": "Amber Fort Sunday 10 AM",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "camping-light",
+        "query": "portable illumination for sleeping outdoors",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "camping-weather",
+        "query": "what should I pack to stay dry in the rain",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "camping-stove",
+        "query": "where is the camping stove stored",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "note-migration",
+        "query": "who will prepare the database migration",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "note-deliverable",
+        "query": "what should be shipped before the review",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe-food",
+        "query": "flat white and avocado toast next Saturday",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting-bring",
+        "query": "bring the new screenshots and search prototype",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-insurance",
+        "query": "my insurance policy identifier",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-approval",
+        "query": "who approved the production deployment",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-stove-serial",
+        "query": "camping stove serial number",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "absent-wifi",
+        "query": "Juniper cafe wifi password",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-cafe-phone",
+        "query": "phone number of the cafe near the old library",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-dial-in",
+        "query": "Monday meeting dial in code",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-hotel",
+        "query": "Jaipur hotel reservation confirmation number",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "absent-shoe-size",
+        "query": "white sneaker available size 14",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "receipt_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "absent-refund",
+        "query": "Juniper cafe refund transaction identifier",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png",
+          "capture_003.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "absent-book-isbn",
+        "query": "ISBN barcode for Design of Everyday",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "absent-mri",
+        "query": "my MRI diagnosis and hospital discharge summary",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "note_002.txt",
+          "memo_001.wav",
+          "capture_004.png",
+          "note_001.md"
+        ]
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "visual-white-shoe",
+        "query": "white sneakers",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_003.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "relative-date",
+        "query": "white sneaker last month",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "changed-price",
+        "query": "2499",
+        "kind": "image",
+        "expected_files": [
+          "capture_002.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "exact-receipt-number",
+        "query": "INV-2026-1042",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "capture_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "cafe-receipt",
+        "query": "Juniper cafe flat white",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_005.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "developer-error",
+        "query": "ECONNREFUSED PostgreSQL connection failed",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "receipt_001.png",
+          "capture_003.png",
+          "receipt_002.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "semantic-note",
+        "query": "equipment to take camping",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "meeting-owner",
+        "query": "Who is responsible for the design review?",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe",
+        "query": "cafe near the old library",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting",
+        "query": "Friday design meeting",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "set": "original",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "no-answer",
+        "query": "my passport number on a submarine",
+        "kind": "text",
+        "expected_files": [],
+        "set": "original",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "shoe-original-price",
+        "query": "2999",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "shoe-green-price",
+        "query": "3499",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_003.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "shoe-green-visual",
+        "query": "olive colored footwear",
+        "kind": "image",
+        "expected_files": [
+          "capture_003.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_001.png",
+          "capture_003.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "shoe-white-visual",
+        "query": "a pale cream low top shoe",
+        "kind": "image",
+        "expected_files": [
+          "capture_001.png",
+          "capture_002.png"
+        ],
+        "category": "visual",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "capture_001.png",
+          "capture_002.png",
+          "capture_003.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "receipt-book-id",
+        "query": "BOOK-7718",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "receipt-cafe-total",
+        "query": "690",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png",
+          "receipt_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "receipt-book-total",
+        "query": "640",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "receipt-toast",
+        "query": "avocado toast and chocolate cake receipt",
+        "kind": "image",
+        "expected_files": [
+          "receipt_001.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png",
+          "capture_003.png",
+          "receipt_002.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "receipt-book-title",
+        "query": "Design of Everyday",
+        "kind": "image",
+        "expected_files": [
+          "receipt_002.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "error-port",
+        "query": "5432",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "exact",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "capture_002.png",
+          "receipt_001.png",
+          "capture_001.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "error-remedy",
+        "query": "database service needs to be started",
+        "kind": "image",
+        "expected_files": [
+          "capture_004.png"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_005.png"
+        ]
+      },
+      {
+        "id": "travel-palace",
+        "query": "Hawa Mahal Saturday",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_002.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "travel-fort",
+        "query": "Amber Fort Sunday 10 AM",
+        "kind": "image",
+        "expected_files": [
+          "capture_005.png"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "capture_002.png",
+          "receipt_002.png",
+          "capture_001.png"
+        ]
+      },
+      {
+        "id": "camping-light",
+        "query": "portable illumination for sleeping outdoors",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 0.5,
+        "first_relevant_rank": 2,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "camping-weather",
+        "query": "what should I pack to stay dry in the rain",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "camping-stove",
+        "query": "where is the camping stove stored",
+        "kind": "text",
+        "expected_files": [
+          "note_002.txt"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "note-migration",
+        "query": "who will prepare the database migration",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "note-deliverable",
+        "query": "what should be shipped before the review",
+        "kind": "text",
+        "expected_files": [
+          "note_001.md"
+        ],
+        "category": "semantic",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "voice-cafe-food",
+        "query": "flat white and avocado toast next Saturday",
+        "kind": "audio",
+        "expected_files": [
+          "memo_001.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "voice-meeting-bring",
+        "query": "bring the new screenshots and search prototype",
+        "kind": "audio",
+        "expected_files": [
+          "memo_002.wav"
+        ],
+        "category": "lexical",
+        "set": "exploratory",
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "reciprocal_rank_at_5": 1.0,
+        "first_relevant_rank": 1,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-insurance",
+        "query": "my insurance policy identifier",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-approval",
+        "query": "who approved the production deployment",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_001.md",
+          "note_002.txt"
+        ]
+      },
+      {
+        "id": "absent-stove-serial",
+        "query": "camping stove serial number",
+        "kind": "text",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "note_002.txt",
+          "note_001.md"
+        ]
+      },
+      {
+        "id": "absent-wifi",
+        "query": "Juniper cafe wifi password",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-cafe-phone",
+        "query": "phone number of the cafe near the old library",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_001.wav",
+          "memo_002.wav"
+        ]
+      },
+      {
+        "id": "absent-dial-in",
+        "query": "Monday meeting dial in code",
+        "kind": "audio",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "memo_002.wav",
+          "memo_001.wav"
+        ]
+      },
+      {
+        "id": "absent-hotel",
+        "query": "Jaipur hotel reservation confirmation number",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_005.png",
+          "receipt_001.png",
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_003.png"
+        ]
+      },
+      {
+        "id": "absent-shoe-size",
+        "query": "white sneaker available size 14",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_001.png",
+          "receipt_002.png"
+        ]
+      },
+      {
+        "id": "absent-refund",
+        "query": "Juniper cafe refund transaction identifier",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_001.png",
+          "capture_004.png",
+          "capture_003.png",
+          "capture_005.png",
+          "capture_002.png"
+        ]
+      },
+      {
+        "id": "absent-book-isbn",
+        "query": "ISBN barcode for Design of Everyday",
+        "kind": "image",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "receipt_002.png",
+          "capture_002.png",
+          "capture_001.png",
+          "capture_003.png",
+          "receipt_001.png"
+        ]
+      },
+      {
+        "id": "absent-mri",
+        "query": "my MRI diagnosis and hospital discharge summary",
+        "expected_files": [],
+        "category": "no-answer",
+        "set": "exploratory",
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "reciprocal_rank_at_5": 0,
+        "first_relevant_rank": null,
+        "abstained": false,
+        "wall_seconds": 0,
+        "retrieved_names": [
+          "capture_004.png",
+          "memo_002.wav",
+          "note_002.txt",
+          "memo_001.wav",
+          "receipt_001.png"
+        ]
+      }
+    ]
+  },
+  "channels": [
+    {
+      "id": "visual-white-shoe",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5614660868615965
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5614660868615965
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5027287047559627
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.7873449921607971
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.7733544707298279
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.7104730606079102
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5184899568557739
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.503871500492096
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.4318963885307312
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.34736278653144836
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.28255602717399597
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.28047677874565125
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.22441822290420532
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.201181560754776
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.1959076076745987
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.17342911660671234
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.1530260145664215
+          }
+        ]
+      }
+    },
+    {
+      "id": "relative-date",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 1.862161326542878
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 1.862161326542878
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.8079874515533447
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.7998604774475098
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.298040509223938
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.2959190309047699
+          }
+        ]
+      }
+    },
+    {
+      "id": "changed-price",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 2.138817056042701
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5643504858016968
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5635057091712952
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.5262032747268677
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.5223561525344849
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5137227177619934
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5057505369186401
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.4573657810688019
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.22672750055789948
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.2262514978647232
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.22415590286254883
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2172478288412094
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.21537986397743225
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.21383647620677948
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.16865526139736176
+          }
+        ]
+      }
+    },
+    {
+      "id": "exact-receipt-number",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 5.7451986154919465
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.6287495493888855
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5541231632232666
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.551650881767273
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.531866192817688
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5253053903579712
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.5181748270988464
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4699869751930237
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2172633856534958
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.21471504867076874
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.2142162024974823
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.2108195573091507
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.2038620263338089
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.19210980832576752
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.18314188718795776
+          }
+        ]
+      }
+    },
+    {
+      "id": "cafe-receipt",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 5.045475769694624
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5614660868615965
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5614660868615965
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.7844889163970947
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5712326169013977
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5676349401473999
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5394669771194458
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.5012786388397217
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4949185848236084
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.4152901768684387
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.29501742124557495
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.1802283376455307
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.18015800416469574
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.17810826003551483
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.15980815887451172
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.1519901007413864
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.14358755946159363
+          }
+        ]
+      }
+    },
+    {
+      "id": "developer-error",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 7.660264820655929
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.8719822764396667
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.4531819820404053
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.4226892292499542
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.41268980503082275
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.38404762744903564
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.3812803328037262
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.379093199968338
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.37202519178390503
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.35164692997932434
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.34754353761672974
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.34166476130485535
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.3114948272705078
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.21650901436805725
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.19369326531887054
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.19192297756671906
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.19047781825065613
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.1885749101638794
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.18285270035266876
+          }
+        ]
+      }
+    },
+    {
+      "id": "semantic-note",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 2.0586417858616226
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.784210741519928
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.44967153668403625
+          }
+        ]
+      }
+    },
+    {
+      "id": "meeting-owner",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 2.7813532013948654
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.17673339113397815
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.6685917973518372
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.37692004442214966
+          }
+        ]
+      }
+    },
+    {
+      "id": "voice-cafe",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 6.258774850110484
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 1.7531530400953754e-06
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.7893346548080444
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.5339045524597168
+          }
+        ]
+      }
+    },
+    {
+      "id": "voice-meeting",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 3.44092473177526
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.7667616605758667
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.6166465282440186
+          }
+        ]
+      }
+    },
+    {
+      "id": "no-answer",
+      "rankings": {
+        "keyword": [],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.4963565766811371
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.4868974983692169
+          }
+        ]
+      }
+    },
+    {
+      "id": "shoe-original-price",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 2.138817056042701
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5535529255867004
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5466353297233582
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.534046471118927
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.5209920406341553
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.49626606702804565
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.46806833148002625
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.42795437574386597
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.24255108833312988
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.24066844582557678
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.22804023325443268
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2275066077709198
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.21867336332798004
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.2116357982158661
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.16399502754211426
+          }
+        ]
+      }
+    },
+    {
+      "id": "shoe-green-price",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 2.097963710770035
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5702263116836548
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5255946516990662
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5222170352935791
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5079079270362854
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.5030905604362488
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4768104553222656
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.44778040051460266
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.22294211387634277
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.22190506756305695
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.21896876394748688
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.21349534392356873
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.21234971284866333
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.2095080465078354
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.16614358127117157
+          }
+        ]
+      }
+    },
+    {
+      "id": "shoe-green-visual",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.9752655888404889
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.9752655888404889
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.9566371317123373
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.7100604772567749
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.6972644925117493
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.6859098076820374
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5223917961120605
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.5150774121284485
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.43219685554504395
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.3868211805820465
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.2767055034637451
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2444024235010147
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.24114100635051727
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.21580563485622406
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.21240825951099396
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.16639919579029083
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.1607736200094223
+          }
+        ]
+      }
+    },
+    {
+      "id": "shoe-white-visual",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 1.2695687476004622
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.6493865251541138
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.6469679474830627
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.6387313008308411
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5187987089157104
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.5119397640228271
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.44845134019851685
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.35311636328697205
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.27626004815101624
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.2739628851413727
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.21081721782684326
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.20455971360206604
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.1847095489501953
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.17016318440437317
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.14466609060764313
+          }
+        ]
+      }
+    },
+    {
+      "id": "receipt-book-id",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 4.9139020541394745
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.6935774087905884
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5382793545722961
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5294967889785767
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5179588198661804
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.5072090029716492
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.504406750202179
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.43001261353492737
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.2644209563732147
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2053072601556778
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.20391367375850677
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.19708086550235748
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.19695019721984863
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.19581396877765656
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.17447349429130554
+          }
+        ]
+      }
+    },
+    {
+      "id": "receipt-cafe-total",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 1.9150662051639822
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5127562284469604
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.49557575583457947
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.4864014685153961
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.48194578289985657
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4784037172794342
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.4698406457901001
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.4442845284938812
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.23262131214141846
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.23208491504192352
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.23089511692523956
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2284795343875885
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.22036831080913544
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.2176012396812439
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.16059346497058868
+          }
+        ]
+      }
+    },
+    {
+      "id": "receipt-book-total",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 2.8159383433694396
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.6020442843437195
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5506280660629272
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5437260866165161
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5268158912658691
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5073752403259277
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.45922625064849854
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4538997411727905
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.22996005415916443
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2277294546365738
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.22649815678596497
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.22391392290592194
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.2171260565519333
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.21130360662937164
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.17040479183197021
+          }
+        ]
+      }
+    },
+    {
+      "id": "receipt-toast",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 6.457813270102644
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.5027287047559627
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.6933500170707703
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5374664664268494
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.534506618976593
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5319452881813049
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5254027843475342
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.49952059984207153
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.3027690649032593
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2972014844417572
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.2352450042963028
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.1940779983997345
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.17079192399978638
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.16734090447425842
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.16469337046146393
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.1370982527732849
+          }
+        ]
+      }
+    },
+    {
+      "id": "receipt-book-title",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 3.6053424179414413
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.748817834628635
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.748817834628635
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.7392188490494254
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.6726741790771484
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.6612573266029358
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.6580008268356323
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.652351975440979
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.5722994208335876
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5002040863037109
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.38617998361587524
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.27198168635368347
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.23198238015174866
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2309040129184723
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.230416938662529
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.22713464498519897
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.2199731022119522
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.18348588049411774
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-port",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 1.9150662051639822
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5388374924659729
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5166754722595215
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5087905526161194
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.4909566640853882
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.4901527762413025
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.47107601165771484
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4382147192955017
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.21821752190589905
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.21617314219474792
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.21411718428134918
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.21018022298812866
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.2087530940771103
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.20866116881370544
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.17348000407218933
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-remedy",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 3.7305896806812164
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.662118673324585
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.4611794650554657
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.4585215151309967
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.4559871256351471
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.4466893672943115
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.44639262557029724
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4143534302711487
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.2594500482082367
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2190599888563156
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.20984430611133575
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.2057848572731018
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.20344354212284088
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.20185737311840057
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.20127646625041962
+          }
+        ]
+      }
+    },
+    {
+      "id": "travel-palace",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 4.9706395144218005
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.7752871513366699
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.5556498169898987
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5526567697525024
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.4868620038032532
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.4817306399345398
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.47794651985168457
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.33256080746650696
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.29769521951675415
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.23025524616241455
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.20679403841495514
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.1896468549966812
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.18717060983181
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.16450344026088715
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.1540122628211975
+          }
+        ]
+      }
+    },
+    {
+      "id": "travel-fort",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 9.98620662701746
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.6799390316009521
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5391862988471985
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.524314820766449
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5210202932357788
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.4912410080432892
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.47027596831321716
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.39317405223846436
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.2293505072593689
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.19246701896190643
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.16240862011909485
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.15728254616260529
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.14635010063648224
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.14345009624958038
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.12743735313415527
+          }
+        ]
+      }
+    },
+    {
+      "id": "camping-light",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.14883581395053777
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.6070376038551331
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.49346643686294556
+          }
+        ]
+      }
+    },
+    {
+      "id": "camping-weather",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 2.9973501918701313
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 1.7003407984420644e-06
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.7352829575538635
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.41060349345207214
+          }
+        ]
+      }
+    },
+    {
+      "id": "camping-stove",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 4.294016962857223
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.1488375142913362
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.696878969669342
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.4687264859676361
+          }
+        ]
+      }
+    },
+    {
+      "id": "note-migration",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 6.390502927965732
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 1.4287905906417797e-06
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.6777709722518921
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.4882967472076416
+          }
+        ]
+      }
+    },
+    {
+      "id": "note-deliverable",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 3.4268409579415016
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 1.4287905906417797e-06
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.6671596169471741
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.5559734106063843
+          }
+        ]
+      }
+    },
+    {
+      "id": "voice-cafe-food",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 7.286560497210968
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.49411348201564065
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.7772279381752014
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.5688238739967346
+          }
+        ]
+      }
+    },
+    {
+      "id": "voice-meeting-bring",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 8.72350932562461
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.4480460800481213
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.7321276664733887
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.5457916259765625
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-insurance",
+      "rankings": {
+        "keyword": [],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.4844115674495697
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.42953020334243774
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-approval",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 1.7003407984420644e-06
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 1.4287905906417797e-06
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.5900384783744812
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.44334876537323
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-stove-serial",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 4.117283571723245
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.6409142017364502
+          },
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.47701218724250793
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-wifi",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 1.674331940500576
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.5239419341087341
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.4500850439071655
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-cafe-phone",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 6.258776104290711
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 3.506306080190751e-06
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.7229049205780029
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.5128165483474731
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-dial-in",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 2.149599483220592
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.613074541091919
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.5787827372550964
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-hotel",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 1.850535383410669
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.6249396800994873
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.6064311265945435
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.5509666204452515
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.48129507899284363
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.45565035939216614
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.45525020360946655
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.41318798065185547
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.304207444190979
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.29725807905197144
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.2556237578392029
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.24050848186016083
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.23676587641239166
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.23343826830387115
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.1883412003517151
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-shoe-size",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 1.862161326542878
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 1.862161326542878
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 1.2840218188955184
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5027287047559627
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.7540684938430786
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.7486915588378906
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.6969401836395264
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.5703291893005371
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.4832647740840912
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4707539975643158
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.36427000164985657
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2973695397377014
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.29534509778022766
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2352307289838791
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.20729365944862366
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.16752426326274872
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.15568530559539795
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.15270987153053284
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-refund",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 3.228906635051322
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.6324833035469055
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.5110772252082825
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.4970880150794983
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.47470831871032715
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.46022894978523254
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.45854049921035767
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4297885000705719
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.36140352487564087
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.24638600647449493
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.224459707736969
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.2229846864938736
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.2192094624042511
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2091962695121765
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.20460109412670135
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-book-isbn",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 3.6053424179414413
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.9324327490853174
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.9324327490853174
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.9193265521360109
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.6796974539756775
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.5594063401222229
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.5536472201347351
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.5521839261054993
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.47357693314552307
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.4593687653541565
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.3900149166584015
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.2966758608818054
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.2460688054561615
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.24230684340000153
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.23701128363609314
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.23304863274097443
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.18871767818927765
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.18199582397937775
+          }
+        ]
+      }
+    },
+    {
+      "id": "absent-mri",
+      "rankings": {
+        "keyword": [
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.5404190809550087
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.5027287047559627
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.49411348201564065
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.4480448258678946
+          }
+        ],
+        "text": [
+          {
+            "asset_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+            "score": 0.5293065905570984
+          },
+          {
+            "asset_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+            "score": 0.5275094509124756
+          },
+          {
+            "asset_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+            "score": 0.512005090713501
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.4867185354232788
+          },
+          {
+            "asset_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+            "score": 0.47625693678855896
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.4716092348098755
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.4552519917488098
+          },
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.4505779445171356
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.44546493887901306
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.4428696632385254
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.43375080823898315
+          }
+        ],
+        "visual": [
+          {
+            "asset_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+            "score": 0.22647444903850555
+          },
+          {
+            "asset_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+            "score": 0.2015843391418457
+          },
+          {
+            "asset_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+            "score": 0.19748841226100922
+          },
+          {
+            "asset_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+            "score": 0.19697731733322144
+          },
+          {
+            "asset_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+            "score": 0.17146572470664978
+          },
+          {
+            "asset_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+            "score": 0.16637608408927917
+          },
+          {
+            "asset_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+            "score": 0.15236806869506836
+          }
+        ]
+      }
+    }
+  ],
+  "quantization": {
+    "reconstruction": [
+      {
+        "chunk_id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e:0",
+        "space": "text",
+        "cosine": 0.9998443722724915
+      },
+      {
+        "chunk_id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0:0",
+        "space": "text",
+        "cosine": 0.9998475313186646
+      },
+      {
+        "chunk_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b:0",
+        "space": "text",
+        "cosine": 0.9998695850372314
+      },
+      {
+        "chunk_id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b:0",
+        "space": "visual",
+        "cosine": 0.9997121095657349
+      },
+      {
+        "chunk_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6:0",
+        "space": "text",
+        "cosine": 0.9998610019683838
+      },
+      {
+        "chunk_id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6:0",
+        "space": "visual",
+        "cosine": 0.9995628595352173
+      },
+      {
+        "chunk_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90:0",
+        "space": "text",
+        "cosine": 0.9998670220375061
+      },
+      {
+        "chunk_id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90:0",
+        "space": "visual",
+        "cosine": 0.9997431635856628
+      },
+      {
+        "chunk_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84:0",
+        "space": "text",
+        "cosine": 0.9998641014099121
+      },
+      {
+        "chunk_id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84:0",
+        "space": "visual",
+        "cosine": 0.9997355341911316
+      },
+      {
+        "chunk_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e:0",
+        "space": "text",
+        "cosine": 0.9998423457145691
+      },
+      {
+        "chunk_id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e:0",
+        "space": "visual",
+        "cosine": 0.9997747540473938
+      },
+      {
+        "chunk_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9:0",
+        "space": "text",
+        "cosine": 0.9998828768730164
+      },
+      {
+        "chunk_id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9:0",
+        "space": "visual",
+        "cosine": 0.9996479153633118
+      },
+      {
+        "chunk_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6:0",
+        "space": "text",
+        "cosine": 0.9998382329940796
+      },
+      {
+        "chunk_id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6:0",
+        "space": "visual",
+        "cosine": 0.9997954368591309
+      },
+      {
+        "chunk_id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960:0",
+        "space": "text",
+        "cosine": 0.9996911287307739
+      },
+      {
+        "chunk_id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23:0",
+        "space": "text",
+        "cosine": 0.9998165965080261
+      }
+    ],
+    "cosine_error_n": 370,
+    "mean_absolute_score_error": 0.0009461998536780074,
+    "max_absolute_score_error": 0.003011256456375122,
+    "channel_top1_agreement": 0.9393939393939394,
+    "channel_top5_jaccard": 0.9696969696969697,
+    "channel_comparisons": 66,
+    "threshold_crossings": 0
+  }
+}

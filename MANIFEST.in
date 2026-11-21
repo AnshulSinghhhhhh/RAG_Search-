@@ -1,0 +1,6 @@
+include LICENSE README.md brain.cmd setup.cmd PRODUCT.md
+recursive-include secondbrain/web *
+recursive-include playground *.md *.json *.png *.wav *.txt
+recursive-include scripts *.py
+recursive-include docs *.jpg
+recursive-include tests *.py

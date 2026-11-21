@@ -1,0 +1,137 @@
+{
+  "started_at": "2026-11-20T21:33:16.535167+05:30",
+  "source_files": [
+    {
+      "path": "playground\\inbox\\notes\\note_001.md",
+      "sha256": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+      "bytes": 187,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\notes\\note_002.txt",
+      "sha256": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+      "bytes": 138,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\receipts\\receipt_001.png",
+      "sha256": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+      "bytes": 31389,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\receipts\\receipt_002.png",
+      "sha256": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+      "bytes": 24166,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_001.png",
+      "sha256": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+      "bytes": 27250,
+      "mtime": 1792056142.368186
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_001_copy.png",
+      "sha256": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+      "bytes": 27250,
+      "mtime": 1792056142.368186
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_002.png",
+      "sha256": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+      "bytes": 27514,
+      "mtime": 1792056142.368186
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_003.png",
+      "sha256": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+      "bytes": 28035,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_004.png",
+      "sha256": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+      "bytes": 28289,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_005.png",
+      "sha256": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+      "bytes": 28480,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\voice\\memo_001.wav",
+      "sha256": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+      "bytes": 599836,
+      "mtime": 1795177342.368186
+    },
+    {
+      "path": "playground\\inbox\\voice\\memo_002.wav",
+      "sha256": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+      "bytes": 540968,
+      "mtime": 1795177342.368186
+    }
+  ],
+  "code_files": [
+    {
+      "path": "secondbrain\\__init__.py",
+      "sha256": "1f380678843891ba2e9fb5c71c463cbdfd1926c7d537909ea22f1828596a2498"
+    },
+    {
+      "path": "secondbrain\\__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "secondbrain\\answers.py",
+      "sha256": "d5c37a0b092782230709b0ddfbba82961664a8520271c29d43291d562dcad551"
+    },
+    {
+      "path": "secondbrain\\api.py",
+      "sha256": "38386292e362de4652872ee6c0fc56d1917f037057182d8b898b653576f1cb3d"
+    },
+    {
+      "path": "secondbrain\\cli.py",
+      "sha256": "841802222cbba6f53bf1d55d4ee2d38d534e0ccdd37a4713c25da69c78a4fe11"
+    },
+    {
+      "path": "secondbrain\\config.py",
+      "sha256": "394791fce2428432b66bade96f49f9f11798c445eca7640e557a607274e84107"
+    },
+    {
+      "path": "secondbrain\\embeddings.py",
+      "sha256": "b7b08eafad81d8b9b64f1045c87b58b34caea5ad3289ee308ed4c8c95249177f"
+    },
+    {
+      "path": "secondbrain\\engine.py",
+      "sha256": "4373854f84daa0298764a866b06c589e4199e1c2c60086d88e8f39820de27ecf"
+    },
+    {
+      "path": "secondbrain\\extract.py",
+      "sha256": "17d629881805cfddc58bd69f4dd59d058ec8502e44cf2bef3ba14bcf3c491552"
+    },
+    {
+      "path": "secondbrain\\store.py",
+      "sha256": "c132d0773f2bd31efbfe23bf053a3d37de916b55e509a52edd544dbd83ae9094"
+    }
+  ],
+  "harness_sha256": "34fbdb4df525bcc3ba7217fc4eb36ee413433cae40b382c609fcc2189b9faa6c",
+  "queries_sha256": "08508f955d9b8a53cabf5313e6d0118c35261a7fcd2d683dd8323dd937d4c876",
+  "query_count": 42,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "logical_cpus": 12,
+  "physical_cpus": 6,
+  "ram_bytes": 7887355904,
+  "versions": {
+    "adaptive-secondbrain": "0.1.0",
+    "fastembed": "0.9.1",
+    "rapidocr": "3.10.0",
+    "faster-whisper": "1.2.1",
+    "onnxruntime": "1.30.0",
+    "numpy": "2.4.4",
+    "Pillow": "12.2.0",
+    "psutil": "7.2.2"
+  }
+}

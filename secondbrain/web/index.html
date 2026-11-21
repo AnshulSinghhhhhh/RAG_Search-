@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="brain-token" content="__SESSION_TOKEN__">
+  <meta name="description" content="Search your screenshots, receipts, notes, and voice memos on your own computer.">
+  <title>Second Brain · Your local memory</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to collection</a>
+  <aside class="sidebar" aria-label="Collection navigation">
+    <a class="brand" href="/" aria-label="Second Brain home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M7 6h10a8 8 0 0 1 0 16H7z"/><path d="M13 11h5a7 7 0 0 1 0 14H7"/></svg></span><span>second brain<span class="brand-sub">A little less forgotten.</span></span></a>
+    <div class="workspace-label"><span class="workspace-avatar">P</span><span>Personal workspace<small>Stored on this computer</small></span></div>
+    <nav class="primary-nav" aria-label="Main">
+      <button class="nav-item active" data-view="library" aria-current="page"><span data-icon="grid"></span>All memories<span id="nav-total" class="nav-count">0</span></button>
+      <button class="nav-item" data-view="folders"><span data-icon="folder"></span>Folders</button>
+      <button class="nav-item" data-view="activity"><span data-icon="activity"></span>Activity & storage</button>
+      <button class="nav-item" data-view="cli"><span data-icon="terminal"></span><span class="nav-cli-label">CLI guide</span></button>
+    </nav>
+    <div class="source-heading"><span>Your folders</span><button id="sidebar-add" class="icon-button" aria-label="Add a source folder"><span data-icon="plus"></span></button></div>
+    <div id="source-list" class="source-list"><p class="sidebar-empty">Add a folder to start collecting.</p></div>
+    <div class="sidebar-bottom">
+      <button class="terminal-link" data-view="cli"><span data-icon="terminal"></span><span>Prefer the terminal?<small>Meet the CLI</small></span><span class="keycap">&gt;_</span></button>
+      <div class="privacy"><span data-icon="shield"></span><span>Your files stay yours.<small>Local processing. No API keys.</small></span></div>
+    </div>
+  </aside>
+
+  <main id="main" class="main">
+    <header class="topbar"><div class="breadcrumb"><span data-icon="folder"></span><span>Personal</span><span class="breadcrumb-divider">/</span><span id="breadcrumb-current">All memories</span></div><span class="local-label"><span data-icon="monitor"></span>Running locally</span></header>
+    <section id="view-library" class="view">
+      <div class="page-heading"><div><h1 id="collection-title">All memories</h1><p id="collection-subtitle">The things you saved. Ready when you need them.</p></div><button id="add-files" class="button primary"><span data-icon="plus"></span>Add files or folder</button></div>
+
+      <section id="import-panel" class="import-panel" aria-labelledby="import-heading" hidden>
+        <div class="panel-title"><h2 id="import-heading">Give your memories a home.</h2><button id="close-import" class="icon-button" aria-label="Close import panel"><span data-icon="close"></span></button></div>
+        <p>Choose a folder or paste a file path. Originals stay where they are.</p>
+        <form id="import-form" class="path-form"><label for="import-path" class="sr-only">Local file or folder path</label><input id="import-path" placeholder="C:\Users\you\Pictures\Screenshots" autocomplete="off" required><button id="browse-folders" class="button secondary" type="button">Browse</button><button id="index-path" class="button primary" type="submit">Index files</button></form>
+        <div id="folder-browser" class="folder-browser" hidden></div>
+        <p class="helper">Images, voice notes, and text files · First use downloads local models.</p>
+      </section>
+
+      <div id="index-progress" class="index-progress" role="status" hidden><div class="progress-top"><strong id="progress-title">Preparing your files…</strong><span id="progress-count"></span></div><progress id="progress-bar" max="100" value="0"></progress><p id="progress-file"></p></div>
+      <div id="notice" class="notice" role="status" hidden></div>
+
+      <form id="search-form" class="search-box"><span data-icon="search"></span><label for="search-input" class="sr-only">Search your memories</label><input id="search-input" type="search" placeholder="Try “the white sneakers I saved last month”" autocomplete="off"><span class="shortcut" aria-hidden="true">/</span><button class="search-submit" type="submit">Search</button></form>
+      <div id="query-suggestions" class="query-suggestions"><span>A little nudge:</span><button data-query="white sneakers">White sneakers</button><button data-query="cafe receipt">A cafe receipt</button><button data-query="cafe" data-kind="audio">That voice note</button></div>
+
+      <div class="collection-toolbar"><div class="tabs" role="group" aria-label="Memory type"><button class="tab active" aria-pressed="true" data-kind="">Everything <span id="count-all">0</span></button><button class="tab" aria-pressed="false" data-kind="image"><span data-icon="image"></span>Images <span id="count-image">0</span></button><button class="tab" aria-pressed="false" data-kind="audio"><span data-icon="mic"></span>Voice notes <span id="count-audio">0</span></button><button class="tab" aria-pressed="false" data-kind="text"><span data-icon="file"></span>Notes <span id="count-text">0</span></button></div><div class="toolbar-right"><label class="date-filter"><span data-icon="calendar"></span><select id="date-filter" aria-label="Filter by time"><option value="">Any time</option><option value="today">Today</option><option value="week">Past 7 days</option><option value="month">This month</option><option value="last-month">Last month</option></select><span data-icon="chevron"></span></label><button id="clear-filters" class="text-button" hidden>Clear</button></div></div>
+      <div class="results-heading"><p id="results-description" aria-live="polite">Your collection is loading…</p><div class="results-actions"><button id="ask-button" class="text-button" hidden><span data-icon="spark"></span>Show evidence</button><button id="refine-button" class="text-button" hidden>Refine OCR</button><span id="search-timing"></span></div></div>
+      <div id="answer-panel" class="answer-panel" hidden><div class="panel-title"><h2>What your files say</h2><button id="close-answer" class="icon-button" aria-label="Close evidence summary"><span data-icon="close"></span></button></div><p id="answer-text"></p><small id="answer-mode"></small></div>
+      <div id="memory-grid" class="memory-grid" aria-label="Memories"></div>
+      <div id="empty-state" class="empty-state" hidden><span class="empty-icon" data-icon="archive"></span><h2 id="empty-title">A place for the things you want to find again.</h2><p id="empty-copy">Add your screenshot folder, saved receipts, or voice notes. Then search in your own words.</p><button id="empty-add" class="button primary"><span data-icon="plus"></span>Add your first folder</button><p class="empty-demo">Just exploring? Index <code>playground/inbox</code> for synthetic examples.</p></div>
+      <button id="load-more" class="button secondary load-more" hidden>Show more memories</button>
+      <footer class="collection-footer"><span data-icon="lock"></span><span>Search happens here, on your computer.</span><button class="text-button" data-view="cli">Use the CLI</button></footer>
+    </section>
+
+    <section id="view-folders" class="view" hidden><div class="page-heading"><div><h1>Your folders</h1><p>You choose what becomes part of your memory.</p></div><button id="folders-add" class="button primary"><span data-icon="plus"></span>Add a folder</button></div><div id="folder-management" class="folder-management"></div><p class="helper">Index a folder again to pick up changes. Cached files reuse their existing embeddings. Forgetting removes index entries and preserves original files.</p></section>
+
+    <section id="view-activity" class="view" hidden><div class="page-heading"><div><h1>A lighter memory.</h1><p>Actual storage and processing activity from this collection.</p></div></div><div id="storage-summary" class="storage-summary"></div><h2 class="section-heading">Recent activity</h2><div id="activity-list" class="activity-list"></div><details class="runtime-details"><summary>Collection location & models</summary><pre id="runtime-details"></pre></details></section>
+
+    <section id="view-cli" class="view cli-view" hidden><div class="page-heading"><div><h1>Your memory, one command away.</h1><p>The CLI and this interface share the same files and index.</p></div><span data-icon="terminal" class="cli-heading-icon"></span></div><div class="cli-intro"><p>Open CMD in the project folder. After installation, use <code>brain</code> anywhere, or <code>brain.cmd</code> from the checkout.</p></div><div id="cli-commands" class="cli-commands"></div><p class="helper">Use <code>brain --help</code> to see all commands. If you launched this app with <code>--home</code>, use that same option before CLI commands.</p></section>
+  </main>
+
+  <dialog id="inspector" class="inspector" aria-labelledby="inspector-title"><div class="inspector-top"><span id="inspector-kind"></span><button id="close-inspector" class="icon-button" aria-label="Close memory"><span data-icon="close"></span></button></div><h2 id="inspector-title"></h2><p id="inspector-date" class="inspector-date"></p><div id="inspector-media" class="inspector-media"></div><div class="evidence-heading"><h3>Source evidence</h3><a id="original-link" target="_blank" rel="noopener">Open original</a></div><div id="inspector-evidence" class="inspector-evidence"></div><div id="inspector-paths" class="inspector-paths"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

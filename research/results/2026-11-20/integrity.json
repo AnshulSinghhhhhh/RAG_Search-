@@ -1,0 +1,237 @@
+{
+  "verified_at": "2026-11-20T21:46:11.066186+05:30",
+  "source_checks": [
+    {
+      "path": "playground\\inbox\\notes\\note_001.md",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\notes\\note_002.txt",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\receipts\\receipt_001.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\receipts\\receipt_002.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_001.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_001_copy.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_002.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_003.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_004.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\screenshots\\capture_005.png",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\voice\\memo_001.wav",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "playground\\inbox\\voice\\memo_002.wav",
+      "sha256_matches": true,
+      "mtime_matches": true
+    },
+    {
+      "path": "secondbrain\\__init__.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\__main__.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\answers.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\api.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\cli.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\config.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\embeddings.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\engine.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\extract.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "secondbrain\\store.py",
+      "sha256_matches": true
+    }
+  ],
+  "cached_model_files": [
+    {
+      "path": "models--Qdrant--bge-small-en-v1.5-onnx-Q\\files_metadata.json",
+      "bytes": 733,
+      "sha256": "b7c49dae21a6abb256580b264f6bfe250f28674ebf98209014d25cf4dcab8f92"
+    },
+    {
+      "path": "models--Qdrant--bge-small-en-v1.5-onnx-Q\\snapshots\\aa8f8b060edb00e03bfdd08813a2949946c8ba55\\config.json",
+      "bytes": 706,
+      "sha256": "13582bcf2effc85b7bf3d3f5532e686bc1c9ce86bb009d10f0ec33cbe92299dd"
+    },
+    {
+      "path": "models--Qdrant--bge-small-en-v1.5-onnx-Q\\snapshots\\aa8f8b060edb00e03bfdd08813a2949946c8ba55\\model_optimized.onnx",
+      "bytes": 66465124,
+      "sha256": "51f1bd0addd6e859e42c2c8021a5e5461385bb676a649f4b269aa445449f2431"
+    },
+    {
+      "path": "models--Qdrant--bge-small-en-v1.5-onnx-Q\\snapshots\\aa8f8b060edb00e03bfdd08813a2949946c8ba55\\special_tokens_map.json",
+      "bytes": 695,
+      "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+    },
+    {
+      "path": "models--Qdrant--bge-small-en-v1.5-onnx-Q\\snapshots\\aa8f8b060edb00e03bfdd08813a2949946c8ba55\\tokenizer.json",
+      "bytes": 711396,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    },
+    {
+      "path": "models--Qdrant--bge-small-en-v1.5-onnx-Q\\snapshots\\aa8f8b060edb00e03bfdd08813a2949946c8ba55\\tokenizer_config.json",
+      "bytes": 1242,
+      "sha256": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-text\\files_metadata.json",
+      "bytes": 724,
+      "sha256": "28ab69fb5f15e81e4416e2ed34d5d5c09b756e8b6b6eddbb4a766e9a680ffbfe"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-text\\snapshots\\48ca1db27cb4063eb311ec2aa7f087a808112876\\config.json",
+      "bytes": 536,
+      "sha256": "4d5923d94bbc4e29864de837df14c138c12b93a0b738c64f3ca41f0c539e17b7"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-text\\snapshots\\48ca1db27cb4063eb311ec2aa7f087a808112876\\model.onnx",
+      "bytes": 254102519,
+      "sha256": "4dbe762b11e36488304471e439cde89da053ad7acaddbf9e096745d142ec8d8b"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-text\\snapshots\\48ca1db27cb4063eb311ec2aa7f087a808112876\\special_tokens_map.json",
+      "bytes": 588,
+      "sha256": "2cdb3b8331a60c92fc1e55a13e9fd61fd2293c5a51275fdcccd62b780052530e"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-text\\snapshots\\48ca1db27cb4063eb311ec2aa7f087a808112876\\tokenizer.json",
+      "bytes": 2224147,
+      "sha256": "b68d571997a1f81bf521fb73806740ddb91e4ed6666cb6e996c066bb289cf55b"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-text\\snapshots\\48ca1db27cb4063eb311ec2aa7f087a808112876\\tokenizer_config.json",
+      "bytes": 705,
+      "sha256": "6bdcee9ccce2a16ca2b4c0c5ed00b42c50ea225f4472a8c4c1e963a2902c2881"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-vision\\files_metadata.json",
+      "bytes": 432,
+      "sha256": "c4d3094a85fb0e10ea859781ea7ea1709638397582b1a7ebb810b60c4ebf0ca7"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-vision\\snapshots\\e0c24ed0fa57fa3e4f97f30de74c51d944036ace\\config.json",
+      "bytes": 482,
+      "sha256": "43bfed060ab82f57833bdd09acdcc2731995cb984651732a9d2b399e63113b9c"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-vision\\snapshots\\e0c24ed0fa57fa3e4f97f30de74c51d944036ace\\model.onnx",
+      "bytes": 351686194,
+      "sha256": "c68d3d9a200ddd2a8c8a5510b576d4c94d1ae383bf8b36dd8c084f94e1fb4d63"
+    },
+    {
+      "path": "models--Qdrant--clip-ViT-B-32-vision\\snapshots\\e0c24ed0fa57fa3e4f97f30de74c51d944036ace\\preprocessor_config.json",
+      "bytes": 780,
+      "sha256": "ce945ef831c9972c135b5b198a03d8eeb70478cd69c0238f24caf1903a9965e6"
+    },
+    {
+      "path": "whisper\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66\\config.json",
+      "bytes": 2309,
+      "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a"
+    },
+    {
+      "path": "whisper\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66\\model.bin",
+      "bytes": 145217532,
+      "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9"
+    },
+    {
+      "path": "whisper\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66\\tokenizer.json",
+      "bytes": 2203239,
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+    },
+    {
+      "path": "whisper\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66\\vocabulary.txt",
+      "bytes": 459861,
+      "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+    }
+  ],
+  "research_scripts": [
+    {
+      "path": "research\\build_report.py",
+      "sha256": "81a2e9a24e63f64edd2e04c0a80fd1bcd935198d100e707a6193edfa04cf89cf"
+    },
+    {
+      "path": "research\\run_experiments.py",
+      "sha256": "34fbdb4df525bcc3ba7217fc4eb36ee413433cae40b382c609fcc2189b9faa6c"
+    },
+    {
+      "path": "research\\run_followups.py",
+      "sha256": "b891e1e9fbd5271bf64eee231ffff2aab5c44924b91cb841b5afb94538fa9c5f"
+    },
+    {
+      "path": "research\\run_ingest_control.py",
+      "sha256": "b2f60ca764760aadeb07fe3cb6aa4d5af04cdffa272864b3676011ccd15a70d3"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "output\\pdf\\adaptive_secondbrain_research_report.pdf",
+      "bytes": 306523,
+      "sha256": "5e57ac2b05384637c7e9731c678adef2969893467551a2a78e38342641ad8c1b"
+    },
+    {
+      "path": "output\\research\\report.html",
+      "bytes": 40331,
+      "sha256": "b62b7a334332a3c1531e62236ebf04161782cf9308432705c605cc2332c371ae"
+    }
+  ]
+}

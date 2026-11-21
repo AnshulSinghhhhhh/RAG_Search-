@@ -1,0 +1,5 @@
+results/*/collections/
+results/*/scale-*.sqlite3*
+results/*/scale-*/
+results/*/query-cache/
+__pycache__/

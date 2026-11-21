@@ -1,0 +1,4948 @@
+{
+  "hybrid": [
+    {
+      "id": "visual-white-shoe",
+      "query": "white sneakers",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.05527139999867359,
+      "cpu_seconds": 0.28125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.048916,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048652,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.047371,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031498,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.030769,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relative-date",
+      "query": "white sneaker last month",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.039685500001723995,
+      "cpu_seconds": 0.3125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.048916,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048652,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "changed-price",
+      "query": "2499",
+      "kind": "image",
+      "expected_files": [
+        "capture_002.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.05700510000133363,
+      "cpu_seconds": 0.34375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048916,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032018,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031746,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031514,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.03055,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exact-receipt-number",
+      "query": "INV-2026-1042",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.07291520000035234,
+      "cpu_seconds": 0.421875,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.047938,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032522,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031514,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031498,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafe-receipt",
+      "query": "Juniper cafe flat white",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.09500500000103784,
+      "cpu_seconds": 0.5,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048131,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.047627,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.030777,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer-error",
+      "query": "ECONNREFUSED PostgreSQL connection failed",
+      "expected_files": [
+        "capture_004.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.07562479999978677,
+      "cpu_seconds": 0.40625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031754,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.030769,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.030331,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "semantic-note",
+      "query": "equipment to take camping",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.021474299999681534,
+      "cpu_seconds": 0.203125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meeting-owner",
+      "query": "Who is responsible for the design review?",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.023078199999872595,
+      "cpu_seconds": 0.109375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-cafe",
+      "query": "cafe near the old library",
+      "kind": "audio",
+      "expected_files": [
+        "memo_001.wav"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.02117300000099931,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-meeting",
+      "query": "Friday design meeting",
+      "kind": "audio",
+      "expected_files": [
+        "memo_002.wav"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.019911200000933604,
+      "cpu_seconds": 0.125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-answer",
+      "query": "my passport number on a submarine",
+      "kind": "text",
+      "expected_files": [],
+      "set": "original",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.019816800000626245,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-original-price",
+      "query": "2999",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.04318849999981467,
+      "cpu_seconds": 0.28125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.048916,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032018,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.030769,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-green-price",
+      "query": "3499",
+      "kind": "image",
+      "expected_files": [
+        "capture_003.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.04971300000033807,
+      "cpu_seconds": 0.28125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.047907,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032266,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032018,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031754,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-green-visual",
+      "query": "olive colored footwear",
+      "kind": "image",
+      "expected_files": [
+        "capture_003.png"
+      ],
+      "category": "visual",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "first_relevant_rank": 2,
+      "abstained": false,
+      "wall_seconds": 0.04155770000033954,
+      "cpu_seconds": 0.296875,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.04866,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.048395,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048131,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.03101,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.03101,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-white-visual",
+      "query": "a pale cream low top shoe",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ],
+      "category": "visual",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "first_relevant_rank": 2,
+      "abstained": false,
+      "wall_seconds": 0.04398320000109379,
+      "cpu_seconds": 0.234375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.047163,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.032522,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032266,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.03125,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-book-id",
+      "query": "BOOK-7718",
+      "kind": "image",
+      "expected_files": [
+        "receipt_002.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.044500500000140164,
+      "cpu_seconds": 0.3125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031754,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.03101,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-cafe-total",
+      "query": "690",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.04504500000075495,
+      "cpu_seconds": 0.28125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.048412,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032522,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.03101,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-book-total",
+      "query": "640",
+      "kind": "image",
+      "expected_files": [
+        "receipt_002.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.04140480000023672,
+      "cpu_seconds": 0.328125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031754,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.03101,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-toast",
+      "query": "avocado toast and chocolate cake receipt",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.04802100000051723,
+      "cpu_seconds": 0.3125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.046206,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.03125,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-book-title",
+      "query": "Design of Everyday",
+      "kind": "image",
+      "expected_files": [
+        "receipt_002.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.0492125999990094,
+      "cpu_seconds": 0.28125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.047875,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.047627,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.046402,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031281,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "error-port",
+      "query": "5432",
+      "kind": "image",
+      "expected_files": [
+        "capture_004.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.04781670000011218,
+      "cpu_seconds": 0.3125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.047403,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.032522,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032018,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031514,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "error-remedy",
+      "query": "database service needs to be started",
+      "kind": "image",
+      "expected_files": [
+        "capture_004.png"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.047580599999491824,
+      "cpu_seconds": 0.3125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031754,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031746,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.031514,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.03055,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-palace",
+      "query": "Hawa Mahal Saturday",
+      "kind": "image",
+      "expected_files": [
+        "capture_005.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.05561979999947653,
+      "cpu_seconds": 0.40625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032002,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.03125,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.030769,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-fort",
+      "query": "Amber Fort Sunday 10 AM",
+      "kind": "image",
+      "expected_files": [
+        "capture_005.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.05583239999941725,
+      "cpu_seconds": 0.296875,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.031258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031025,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.030777,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camping-light",
+      "query": "portable illumination for sleeping outdoors",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "first_relevant_rank": 2,
+      "abstained": false,
+      "wall_seconds": 0.01970450000044366,
+      "cpu_seconds": 0.203125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032522,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camping-weather",
+      "query": "what should I pack to stay dry in the rain",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.02005520000057004,
+      "cpu_seconds": 0.078125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camping-stove",
+      "query": "where is the camping stove stored",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.019052899999223882,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "note-migration",
+      "query": "who will prepare the database migration",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.01972080000086862,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "note-deliverable",
+      "query": "what should be shipped before the review",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.022119499999462278,
+      "cpu_seconds": 0.125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-cafe-food",
+      "query": "flat white and avocado toast next Saturday",
+      "kind": "audio",
+      "expected_files": [
+        "memo_001.wav"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.023176900000180467,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-meeting-bring",
+      "query": "bring the new screenshots and search prototype",
+      "kind": "audio",
+      "expected_files": [
+        "memo_002.wav"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.022930400000404916,
+      "cpu_seconds": 0.125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-insurance",
+      "query": "my insurance policy identifier",
+      "kind": "text",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.01876329999868176,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-approval",
+      "query": "who approved the production deployment",
+      "kind": "text",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.01965629999904195,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-stove-serial",
+      "query": "camping stove serial number",
+      "kind": "text",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.01872699999876204,
+      "cpu_seconds": 0.0625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-wifi",
+      "query": "Juniper cafe wifi password",
+      "kind": "audio",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.018250799999805167,
+      "cpu_seconds": 0.125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-cafe-phone",
+      "query": "phone number of the cafe near the old library",
+      "kind": "audio",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.019086700000116252,
+      "cpu_seconds": 0.046875,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032258,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-dial-in",
+      "query": "Monday meeting dial in code",
+      "kind": "audio",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.017592899999726797,
+      "cpu_seconds": 0.046875,
+      "warnings": [],
+      "results": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032787,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016129,
+          "channels": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-hotel",
+      "query": "Jaipur hotel reservation confirmation number",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.04007690000071307,
+      "cpu_seconds": 0.25,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.048916,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.032522,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031746,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.03125,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.030536,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-shoe-size",
+      "query": "white sneaker available size 14",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.04512489999979152,
+      "cpu_seconds": 0.234375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048916,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.048652,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.047371,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.047123,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.030536,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-refund",
+      "query": "Juniper cafe refund transaction identifier",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.048429200000100536,
+      "cpu_seconds": 0.34375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.032258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.031258,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.030798,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.030777,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-book-isbn",
+      "query": "ISBN barcode for Design of Everyday",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.04708149999896705,
+      "cpu_seconds": 0.296875,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.04918,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.048131,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.047875,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.046875,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.030536,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-mri",
+      "query": "my MRI diagnosis and hospital discharge summary",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.043099399999846355,
+      "cpu_seconds": 0.234375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.047228,
+          "channels": [
+            "keyword",
+            "text",
+            "visual"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.032002,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.031778,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.031498,
+          "channels": [
+            "keyword",
+            "text"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.031281,
+          "channels": [
+            "text",
+            "visual"
+          ]
+        }
+      ]
+    }
+  ],
+  "lexical": [
+    {
+      "id": "visual-white-shoe",
+      "query": "white sneakers",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.013579800001025433,
+      "cpu_seconds": 0.109375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relative-date",
+      "query": "white sneaker last month",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.012545699999463977,
+      "cpu_seconds": 0.109375,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "changed-price",
+      "query": "2499",
+      "kind": "image",
+      "expected_files": [
+        "capture_002.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.00966320000043197,
+      "cpu_seconds": 0.03125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exact-receipt-number",
+      "query": "INV-2026-1042",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.010174799999731476,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafe-receipt",
+      "query": "Juniper cafe flat white",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.02119449999918288,
+      "cpu_seconds": 0.03125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer-error",
+      "query": "ECONNREFUSED PostgreSQL connection failed",
+      "expected_files": [
+        "capture_004.png"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.011950400001296657,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "semantic-note",
+      "query": "equipment to take camping",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.010896000001594075,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meeting-owner",
+      "query": "Who is responsible for the design review?",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.01634819999890169,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-cafe",
+      "query": "cafe near the old library",
+      "kind": "audio",
+      "expected_files": [
+        "memo_001.wav"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.014861199999359087,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-meeting",
+      "query": "Friday design meeting",
+      "kind": "audio",
+      "expected_files": [
+        "memo_002.wav"
+      ],
+      "set": "original",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.008512899999914225,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-answer",
+      "query": "my passport number on a submarine",
+      "kind": "text",
+      "expected_files": [],
+      "set": "original",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": true,
+      "wall_seconds": 0.0039354999989882344,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": []
+    },
+    {
+      "id": "shoe-original-price",
+      "query": "2999",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.008675800001583411,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-green-price",
+      "query": "3499",
+      "kind": "image",
+      "expected_files": [
+        "capture_003.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.009201599999869359,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-green-visual",
+      "query": "olive colored footwear",
+      "kind": "image",
+      "expected_files": [
+        "capture_003.png"
+      ],
+      "category": "visual",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "first_relevant_rank": 3,
+      "abstained": false,
+      "wall_seconds": 0.017479599999205675,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoe-white-visual",
+      "query": "a pale cream low top shoe",
+      "kind": "image",
+      "expected_files": [
+        "capture_001.png",
+        "capture_002.png"
+      ],
+      "category": "visual",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.008518799999365001,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-book-id",
+      "query": "BOOK-7718",
+      "kind": "image",
+      "expected_files": [
+        "receipt_002.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.007670900000448455,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-cafe-total",
+      "query": "690",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.008465400000204681,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-book-total",
+      "query": "640",
+      "kind": "image",
+      "expected_files": [
+        "receipt_002.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.007074999999531428,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-toast",
+      "query": "avocado toast and chocolate cake receipt",
+      "kind": "image",
+      "expected_files": [
+        "receipt_001.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.011312300001009135,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "receipt-book-title",
+      "query": "Design of Everyday",
+      "kind": "image",
+      "expected_files": [
+        "receipt_002.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.01830320000044594,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.015625,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "error-port",
+      "query": "5432",
+      "kind": "image",
+      "expected_files": [
+        "capture_004.png"
+      ],
+      "category": "exact",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.007258699999511009,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "error-remedy",
+      "query": "database service needs to be started",
+      "kind": "image",
+      "expected_files": [
+        "capture_004.png"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.007125500000256579,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-palace",
+      "query": "Hawa Mahal Saturday",
+      "kind": "image",
+      "expected_files": [
+        "capture_005.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.007357300000876421,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-fort",
+      "query": "Amber Fort Sunday 10 AM",
+      "kind": "image",
+      "expected_files": [
+        "capture_005.png"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.006989699999394361,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camping-light",
+      "query": "portable illumination for sleeping outdoors",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.006736999999702675,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camping-weather",
+      "query": "what should I pack to stay dry in the rain",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.010736700000052224,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camping-stove",
+      "query": "where is the camping stove stored",
+      "kind": "text",
+      "expected_files": [
+        "note_002.txt"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.010698599999159342,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "note-migration",
+      "query": "who will prepare the database migration",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.010389600000053179,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "note-deliverable",
+      "query": "what should be shipped before the review",
+      "kind": "text",
+      "expected_files": [
+        "note_001.md"
+      ],
+      "category": "semantic",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.01105200000165496,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-cafe-food",
+      "query": "flat white and avocado toast next Saturday",
+      "kind": "audio",
+      "expected_files": [
+        "memo_001.wav"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.00936329999967711,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice-meeting-bring",
+      "query": "bring the new screenshots and search prototype",
+      "kind": "audio",
+      "expected_files": [
+        "memo_002.wav"
+      ],
+      "category": "lexical",
+      "set": "exploratory",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "abstained": false,
+      "wall_seconds": 0.011275700000624056,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-insurance",
+      "query": "my insurance policy identifier",
+      "kind": "text",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": true,
+      "wall_seconds": 0.003644200000053388,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": []
+    },
+    {
+      "id": "absent-approval",
+      "query": "who approved the production deployment",
+      "kind": "text",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.010339899999962654,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "798739aaba29e7dfeed47d005f3cb360b238a15468b7820a9bce456d1cd3288e",
+          "name": "note_001.md",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_001.md"
+          ],
+          "text": "# Launch meeting The design review is scheduled for Friday at 3 PM. Priya owns the landing page. Arjun will prepare the database migration. Ship the search prototype before the review.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-stove-serial",
+      "query": "camping stove serial number",
+      "kind": "text",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.00600990000020829,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-wifi",
+      "query": "Juniper cafe wifi password",
+      "kind": "audio",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.006796400000894209,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-cafe-phone",
+      "query": "phone number of the cafe near the old library",
+      "kind": "audio",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.010527499998715939,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-dial-in",
+      "query": "Monday meeting dial in code",
+      "kind": "audio",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.0074140000015177066,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-hotel",
+      "query": "Jaipur hotel reservation confirmation number",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.007640300000275602,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "a064426948de3a2c05520d568a4ccca6a8a2e13901d6649a659a0a7114f5f5f6",
+          "name": "capture_005.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_005.png"
+          ],
+          "text": "A weekend in Jaipur Saturday / Hawa Mahal at 9 AM Lunch at the old city market Sunday / Amber Fort at 10 AM Remember: comfortable walking shoes",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-shoe-size",
+      "query": "white sneaker available size 14",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.016863200000443612,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.015625,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-refund",
+      "query": "Juniper cafe refund transaction identifier",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.007497000000512344,
+      "cpu_seconds": 0.0,
+      "warnings": [],
+      "results": [
+        {
+          "id": "f8b1f756f96ca2ac2c7ad3ce94b74c4246190f90de9376016e2ce4d3c23d858b",
+          "name": "receipt_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_001.png"
+          ],
+          "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-book-isbn",
+      "query": "ISBN barcode for Design of Everyday",
+      "kind": "image",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.017736000001605134,
+      "cpu_seconds": 0.03125,
+      "warnings": [],
+      "results": [
+        {
+          "id": "3e92477059f3fcbe8df04b97d61514d3d139d5f4554d53a19c5961febdc1cfb6",
+          "name": "receipt_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\receipts\\receipt_002.png"
+          ],
+          "text": "THE BOOK NOOK Bengaluru, India BOOK-7718 Design of Everyday 640 TOTAL INR 640 Thank you. See you again.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "e7a9b571679b1e9165bc21d37276ade40869186ae6d02a4f8e449f3a38844b90",
+          "name": "capture_001.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001.png",
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_001_copy.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort INR 2999 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "575a3cae249b5cd36c0522c8f20e63d1995e5d7484446e4b60ba14aeaf6d4e84",
+          "name": "capture_002.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_002.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The white court sneaker Leather court sneaker / everyday comfort SAVE FOR LATER 2499 INR",
+          "start": null,
+          "end": null,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "0d57a92540f5790d67d88b5033115388af327b22006834f92270b34c0568601e",
+          "name": "capture_003.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_003.png"
+          ],
+          "text": "EVERYDAY GOODS Footwear / Collection The forest green court sneaker Leather court sneaker / everyday comfort INR 3499 SAVE FOR LATER",
+          "start": null,
+          "end": null,
+          "score": 0.015625,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "absent-mri",
+      "query": "my MRI diagnosis and hospital discharge summary",
+      "expected_files": [],
+      "category": "no-answer",
+      "set": "exploratory",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "first_relevant_rank": null,
+      "abstained": false,
+      "wall_seconds": 0.018117600000550738,
+      "cpu_seconds": 0.015625,
+      "warnings": [],
+      "results": [
+        {
+          "id": "40069927185680a1b5eab7ac9ac8378bae6a0232f1a83036a197aec60240dcf0",
+          "name": "note_002.txt",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\notes\\note_002.txt"
+          ],
+          "text": "Weekend packing list: hiking backpack, rain jacket, water bottle, flashlight, and comfortable shoes. The camping stove is in the garage.",
+          "start": null,
+          "end": null,
+          "score": 0.016393,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "553ce2eecc78343641a11f606016290eb2427884abc77950e00339ce23c155b9",
+          "name": "capture_004.png",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\screenshots\\capture_004.png"
+          ],
+          "text": "Database connection failed ECONNREFUSED 127.0.0.1:5432 PostgreSQL server is not running. Start the database service and retry. Project: local second brain",
+          "start": null,
+          "end": null,
+          "score": 0.016129,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "db9633c6b13e5f50ba92df53d594c799cdc5db85541732a4cb69193966689a23",
+          "name": "memo_002.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_002.wav"
+          ],
+          "text": "Remember the project meeting. Priya is handling the design review on Friday at 3 in the afternoon. Bring the new screenshots and the search prototype.",
+          "start": 0.0,
+          "end": 17.6,
+          "score": 0.015873,
+          "channels": [
+            "keyword"
+          ]
+        },
+        {
+          "id": "a3a969defa23e8f99f92f192ce29aa48f1e14c6df03a5daebcf10171a22d3960",
+          "name": "memo_001.wav",
+          "paths": [
+            "C:\\Users\\anshu\\Desktop\\tabahai\\RAG\\playground\\inbox\\voice\\memo_001.wav"
+          ],
+          "text": "A note for later. The cafe we liked was called Jennifer Cafe. It is near the old library. We should go back for their flat white and avocado toast next Saturday.",
+          "start": 0.0,
+          "end": 12.86,
+          "score": 0.015625,
+          "channels": [
+            "keyword"
+          ]
+        }
+      ]
+    }
+  ]
+}

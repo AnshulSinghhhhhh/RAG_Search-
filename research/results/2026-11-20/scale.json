@@ -1,0 +1,92 @@
+[
+  {
+    "vectors": 100,
+    "repetition": 1,
+    "wall_seconds": 0.024665299999469426,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 100,
+    "repetition": 2,
+    "wall_seconds": 0.028467099999033962,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 100,
+    "repetition": 3,
+    "wall_seconds": 0.029855999999199412,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 100,
+    "repetition": 4,
+    "wall_seconds": 0.02841460000126972,
+    "cpu_seconds": 0.015625
+  },
+  {
+    "vectors": 100,
+    "repetition": 5,
+    "wall_seconds": 0.027009499999621767,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 1000,
+    "repetition": 1,
+    "wall_seconds": 0.033690399999613874,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 1000,
+    "repetition": 2,
+    "wall_seconds": 0.027566000000661006,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 1000,
+    "repetition": 3,
+    "wall_seconds": 0.04101339999942866,
+    "cpu_seconds": 0.046875
+  },
+  {
+    "vectors": 1000,
+    "repetition": 4,
+    "wall_seconds": 0.03724800000054529,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 1000,
+    "repetition": 5,
+    "wall_seconds": 0.03627500000038708,
+    "cpu_seconds": 0.03125
+  },
+  {
+    "vectors": 10000,
+    "repetition": 1,
+    "wall_seconds": 0.13419280000016443,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "vectors": 10000,
+    "repetition": 2,
+    "wall_seconds": 0.13083519999963755,
+    "cpu_seconds": 0.125
+  },
+  {
+    "vectors": 10000,
+    "repetition": 3,
+    "wall_seconds": 0.1598132999988593,
+    "cpu_seconds": 0.171875
+  },
+  {
+    "vectors": 10000,
+    "repetition": 4,
+    "wall_seconds": 0.1483210999995208,
+    "cpu_seconds": 0.140625
+  },
+  {
+    "vectors": 10000,
+    "repetition": 5,
+    "wall_seconds": 0.16508509999948728,
+    "cpu_seconds": 0.171875
+  }
+]

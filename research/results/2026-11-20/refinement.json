@@ -1,0 +1,89 @@
+[
+  {
+    "repetition": 1,
+    "before": {
+      "confidence": 0.9981224999999999,
+      "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+      "exact_fields": {
+        "690": true,
+        "INV-2026-1042": true,
+        "JUNIPER": true
+      }
+    },
+    "after": {
+      "confidence": 0.9981224999999999,
+      "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+      "exact_fields": {
+        "690": true,
+        "INV-2026-1042": true,
+        "JUNIPER": true
+      }
+    },
+    "refinement": {
+      "completed": [],
+      "budget_seconds": 5,
+      "elapsed_seconds": 0.078,
+      "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+    },
+    "wall_seconds": 0.0781501000001299,
+    "cpu_seconds": 0.359375
+  },
+  {
+    "repetition": 2,
+    "before": {
+      "confidence": 0.9981224999999999,
+      "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+      "exact_fields": {
+        "690": true,
+        "INV-2026-1042": true,
+        "JUNIPER": true
+      }
+    },
+    "after": {
+      "confidence": 0.9981224999999999,
+      "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+      "exact_fields": {
+        "690": true,
+        "INV-2026-1042": true,
+        "JUNIPER": true
+      }
+    },
+    "refinement": {
+      "completed": [],
+      "budget_seconds": 5,
+      "elapsed_seconds": 0.034,
+      "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+    },
+    "wall_seconds": 0.034405800000968156,
+    "cpu_seconds": 0.265625
+  },
+  {
+    "repetition": 3,
+    "before": {
+      "confidence": 0.9981224999999999,
+      "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+      "exact_fields": {
+        "690": true,
+        "INV-2026-1042": true,
+        "JUNIPER": true
+      }
+    },
+    "after": {
+      "confidence": 0.9981224999999999,
+      "text": "JUNIPER CAFE Bengaluru, India INV-2026-1042 Flat white 180 Avocado toast 320 Chocolate cake 190 TOTAL INR 690 Thank you. See you again.",
+      "exact_fields": {
+        "690": true,
+        "INV-2026-1042": true,
+        "JUNIPER": true
+      }
+    },
+    "refinement": {
+      "completed": [],
+      "budget_seconds": 5,
+      "elapsed_seconds": 0.028,
+      "policy": "low-confidence OCR; soft budget includes search; one in-flight task may exceed it"
+    },
+    "wall_seconds": 0.028142900000602822,
+    "cpu_seconds": 0.171875
+  }
+]
